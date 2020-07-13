@@ -1,0 +1,6083 @@
+EventReadingAlgorithm: Processing event file: /r05/uboone/mcc8-4_samples/BNB_mu_cosmic/prodgenie_bnb_nu_cosmic_uboone_mcc8-4_1004.pndr
+     
+CLEAR FINAL STATE? 1
+total = 738
+total W = 279
+cluster size = 4
+length = 99.804
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 1183
+total W = 222
+cluster size = 4
+length = 129.836
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 954
+total W = 20
+cluster size = 4
+length = 11.7844
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 17
+total W = 5
+cluster size = 4
+length = 1.23286
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 18
+total W = 5
+cluster size = 4
+length = 1.65973
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 16
+total W = 5
+cluster size = 4
+length = 1.46437
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300417
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300144
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 2
+cluster size = 4
+length = 0.301544
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 3
+cluster size = 4
+length = 0.600416
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.327796
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 16
+total W = 6
+cluster size = 4
+length = 1.50023
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.386598
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 24
+total W = 9
+cluster size = 4
+length = 2.46128
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.300386
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.30022
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 15
+total W = 4
+cluster size = 4
+length = 1.12255
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 11
+total W = 4
+cluster size = 4
+length = 0.921508
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.307725
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.300266
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 13
+total W = 4
+cluster size = 4
+length = 0.905297
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 13
+total W = 5
+cluster size = 4
+length = 1.21804
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 9
+total W = 3
+cluster size = 4
+length = 0.833811
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300429
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 14
+total W = 4
+cluster size = 4
+length = 0.911828
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 20
+total W = 7
+cluster size = 4
+length = 3.67671
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 10
+total W = 3
+cluster size = 4
+length = 0.70826
+final directioncosmic : 1
+down probability : -2
+|[1m MCParticle [0m|[1m[0m|[1m[0m|[1m Pfo [0m|[1m nSharedHits [0m|[1m[0m|[1m Pfo [0m|[1m nSharedHits [0m|
+|[0m ---------- [0m|[0m[0m|[0m[0m|[0m --- [0m|[0m ----------- [0m|[0m[0m|[0m --- [0m|[0m ----------- [0m|
+|[0m[92m          1 [0m|[0m|[0m|[0m[91m   1 [0m|[0m[91m         727 [0m|[0m|[0m[39m     [0m|[0m[39m             [0m|
+|[0m[92m          2 [0m|[0m|[0m|[0m[91m   1 [0m|[0m[91m          19 [0m|[0m|[0m[91m   2 [0m|[0m[91m          15 [0m|
+  
+Primary MCParticle 0x6e62a30
+  - PDG : 13
+  - NHits : 727
+  
+  
+Primary MCParticle 0x6e62480
+  - PDG : 2212
+  - NHits : 19
+  
+Pfo 0x4a71ed0
+  - PDG : 13
+  - NHits shared total: 746
+  - is final state?: 1
+hits in pfo = 738
+hits in pfo W = 279
+length in W = 99.804
+Purity temp = 746  over  738
+Sig temp = 727  over  727
+Purity temp = 746  over  738
+Sig temp = 19  over  19
+Purity = 1.01084
+Sig = 2
+is down? 1
+Clear Neutrino
+hits in pfo = 738
+hits in pfo W = 279
+length in W = 99.804
+potential neutrino
+                                  
+Pfo 0x4a74ca0
+  - PDG : 11
+  - NHits shared total: 15
+  - is final state?: 0
+Pfo 0x554dd20
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1811
+hits in pfo W = 251
+length in W = 146.258
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1811
+hits in pfo W = 251
+length in W = 146.258
+Tagged as a CR
+                                  
+Pfo 0x511d820
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1509
+hits in pfo W = 420
+length in W = 156.626
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1509
+hits in pfo W = 420
+length in W = 156.626
+Tagged as a CR
+                                  
+Pfo 0x51dd230
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1491
+hits in pfo W = 349
+length in W = 171.745
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1491
+hits in pfo W = 349
+length in W = 171.745
+Tagged as a CR
+                                  
+Pfo 0x4f8cb60
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1441
+hits in pfo W = 285
+length in W = 102.427
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1441
+hits in pfo W = 285
+length in W = 102.427
+Tagged as a CR
+                                  
+Pfo 0x53efc20
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1308
+hits in pfo W = 60
+length in W = 18.9762
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1308
+hits in pfo W = 60
+length in W = 18.9762
+Tagged as a CR
+                                  
+Pfo 0x4ebf760
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1272
+hits in pfo W = 116
+length in W = 81.6232
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1272
+hits in pfo W = 116
+length in W = 81.6232
+Tagged as a CR
+                                  
+Pfo 0x5036d20
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1183
+hits in pfo W = 222
+length in W = 129.836
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1183
+hits in pfo W = 222
+length in W = 129.836
+potential neutrino
+                                  
+Pfo 0x4d71950
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1153
+hits in pfo W = 316
+length in W = 125.94
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1153
+hits in pfo W = 316
+length in W = 125.94
+Tagged as a CR
+                                  
+Pfo 0x4e03b30
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1081
+hits in pfo W = 156
+length in W = 91.9533
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1081
+hits in pfo W = 156
+length in W = 91.9533
+Tagged as a CR
+                                  
+Pfo 0x4c39be0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1047
+hits in pfo W = 167
+length in W = 66.5018
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1047
+hits in pfo W = 167
+length in W = 66.5018
+Tagged as a CR
+                                  
+Pfo 0x52d4c90
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 972
+hits in pfo W = 244
+length in W = 179.492
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 972
+hits in pfo W = 244
+length in W = 179.492
+Tagged as a CR
+                                  
+Pfo 0x546b440
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 954
+hits in pfo W = 20
+length in W = 11.7844
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 954
+hits in pfo W = 20
+length in W = 11.7844
+potential neutrino
+                                  
+Pfo 0x4cb1f70
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 811
+hits in pfo W = 170
+length in W = 111.228
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 811
+hits in pfo W = 170
+length in W = 111.228
+Tagged as a CR
+                                  
+Pfo 0x560c6f0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 801
+hits in pfo W = 202
+length in W = 239.363
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 801
+hits in pfo W = 202
+length in W = 239.363
+Tagged as a CR
+                                  
+Pfo 0x4ba37e0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 753
+hits in pfo W = 86
+length in W = 89.1403
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 753
+hits in pfo W = 86
+length in W = 89.1403
+Tagged as a CR
+                                  
+Pfo 0x4ade380
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 753
+hits in pfo W = 107
+length in W = 64.7698
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 753
+hits in pfo W = 107
+length in W = 64.7698
+Tagged as a CR
+                                  
+Pfo 0x4b3ab50
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 744
+hits in pfo W = 98
+length in W = 66.4237
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 744
+hits in pfo W = 98
+length in W = 66.4237
+Tagged as a CR
+                                  
+Pfo 0x523eda0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 570
+hits in pfo W = 137
+length in W = 78.9917
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 570
+hits in pfo W = 137
+length in W = 78.9917
+Tagged as a CR
+                                  
+Pfo 0x4a00080
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 564
+hits in pfo W = 192
+length in W = 80.7555
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 564
+hits in pfo W = 192
+length in W = 80.7555
+Tagged as a CR
+                                  
+Pfo 0x4966190
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 552
+hits in pfo W = 97
+length in W = 36.5968
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 552
+hits in pfo W = 97
+length in W = 36.5968
+Tagged as a CR
+                                  
+Pfo 0x5328f70
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 500
+hits in pfo W = 123
+length in W = 88.8814
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 500
+hits in pfo W = 123
+length in W = 88.8814
+Tagged as a CR
+                                  
+Pfo 0x49a8fd0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 446
+hits in pfo W = 66
+length in W = 43.3389
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 446
+hits in pfo W = 66
+length in W = 43.3389
+Tagged as a CR
+                                  
+Pfo 0x5597240
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 293
+hits in pfo W = 38
+length in W = 11.8561
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 293
+hits in pfo W = 38
+length in W = 11.8561
+Tagged as a CR
+                                  
+Pfo 0x51f9940
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 226
+hits in pfo W = 55
+length in W = 42.3851
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 226
+hits in pfo W = 55
+length in W = 42.3851
+Tagged as a CR
+                                  
+Pfo 0x4919920
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 219
+hits in pfo W = 48
+length in W = 12.986
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 219
+hits in pfo W = 48
+length in W = 12.986
+Tagged as a CR
+                                  
+Pfo 0x5577f20
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x48bc760
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 146
+hits in pfo W = 38
+length in W = 25.7464
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 146
+hits in pfo W = 38
+length in W = 25.7464
+Tagged as a CR
+                                  
+Pfo 0x555e220
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4c410f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5473e10
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 69
+hits in pfo W = 7
+length in W = 4.33313
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 69
+hits in pfo W = 7
+length in W = 4.33313
+Tagged as a CR
+                                  
+Pfo 0x5330d70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5554960
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x52db2d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x559d9d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x503bb80
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4cb5920
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4cb9110
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x561cab0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 30
+hits in pfo W = 8
+length in W = 2.47064
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 30
+hits in pfo W = 8
+length in W = 2.47064
+Tagged as a CR
+                                  
+Pfo 0x5563760
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5617160
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 26
+hits in pfo W = 6
+length in W = 2.11367
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 26
+hits in pfo W = 6
+length in W = 2.11367
+Tagged as a CR
+                                  
+Pfo 0x562a7f0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 24
+hits in pfo W = 9
+length in W = 2.46128
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 24
+hits in pfo W = 9
+length in W = 2.46128
+potential neutrino
+                                  
+Pfo 0x53f4780
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4f8fd70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4968d20
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4e06470
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x55658f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5641170
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 20
+hits in pfo W = 7
+length in W = 3.67671
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 20
+hits in pfo W = 7
+length in W = 3.67671
+potential neutrino
+                                  
+Pfo 0x4e08d60
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5614020
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 18
+hits in pfo W = 5
+length in W = 1.65973
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 18
+hits in pfo W = 5
+length in W = 1.65973
+potential neutrino
+                                  
+Pfo 0x5567cb0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x52e3bc0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5611d30
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 17
+hits in pfo W = 5
+length in W = 1.23286
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 17
+hits in pfo W = 5
+length in W = 1.23286
+potential neutrino
+                                  
+Pfo 0x52df060
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5240ee0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x560e3e0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4f91eb0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5619170
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 16
+hits in pfo W = 5
+length in W = 1.46437
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 16
+hits in pfo W = 5
+length in W = 1.46437
+potential neutrino
+                                  
+Pfo 0x5626430
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 16
+hits in pfo W = 6
+length in W = 1.50023
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 16
+hits in pfo W = 6
+length in W = 1.50023
+potential neutrino
+                                  
+Pfo 0x562f030
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 15
+hits in pfo W = 4
+length in W = 1.12255
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 15
+hits in pfo W = 4
+length in W = 1.12255
+potential neutrino
+                                  
+Pfo 0x511fa80
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4e0ae50
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x563d6e0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x5560220
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x563b770
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x53f1960
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x51e26f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x48be4e0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5636fd0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x56351d0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x4a01a50
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x51dedb0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4f936d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4c42900
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x546cea0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4f964a0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x51e07c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x51210a0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5630b50
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x52dc9c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5645130
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x5642d60
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x496c820
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x52e15f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4cbfb60
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4b3c1f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x56386f0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x52e6390
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5579160
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4cbc9d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4cbb7c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x52e5060
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5622fa0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x56219f0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x4cbda70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x496a050
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x56277e0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x4d72720
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4f94970
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x56333d0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x5631f90
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x4e0c180
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x496b2f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x503cb90
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4cba440
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x562d100
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x5123500
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x562bcc0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x51221d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x56399c0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x4e0d2b0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x56241e0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x5242010
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x52e0190
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x56203b0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x561f0e0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x561de10
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x5331a10
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4ec05b0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x49a9d00
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x48bf2a0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4d73400
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4c434c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4b3cd20
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4f991e0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5579de0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4f99d10
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4f970f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4cbe630
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x53f51d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4f9a760
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x51e3a70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4e0dc70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4f97b40
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x52e6d50
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4e0e6c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x51e30b0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4b3d770
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4c43f10
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x49aa7e0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x560ee60
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4e0f110
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x51e4430
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5123fe0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x557a8f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4f98620
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x52e7830
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x560f8e0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x49ab2c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5242a60
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4a02410
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4c449f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+   
+Tagged clear cosmic = 75%
+clear cosmic identified as neutrino = 25%
+protected clear neutrinos = 100%
+clear neutrino identified as cosmic = 0%
+ daughters 0x5a725d0
+ daughters 0x5cc5d20
+ daughters 0x5d23180
+ daughters 0x5e51a10
+crnut 0x5a8d820
+crnut 0x5ae6260
+crnut 0x5af1a20
+crnut 0x5cd1d00
+crnut 0x5d42e20
+crnut 0x5eec630
+crnut 0x5ee8780
+ size   :   11
+------------------Running over Slices---------------------
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 222
+total = 1183
+start: PerformFits
+fit status: -1  :  -1
+time: 74.8367
+start: PerformFits
+fit status: -1  :  -1
+time: 76.5112
+start: PerformFits
+fit status: -1  :  -1
+time: 74.3942
+directionFitObject.GetMinChiSquaredPerHit() 14.1982  GetForwardsChiSquaredPerHit()14.1982  GetBackwardsChiSquaredPerHit()   17.4251         directionFitObject.GetNHits()  166
+Not hypothosis one
+start: PerformFits
+fit status: -1  :  -1
+time: 73.8624
+start: PerformFits
+fit status: -1  :  -1
+time: 232.259
+start: PerformFits
+fit status: -1  :  -1
+time: 78.3785
+start: PerformFits
+fit status: -1  :  -1
+time: 226.102
+start: PerformFits
+fit status: -1  :  -1
+time: 77.4449
+start: PerformFits
+fit status: -1  :  -1
+time: 229.76
+start: PerformFits
+fit status: -1  :  -1
+time: 72.9219
+start: PerformFits
+fit status: -1  :  -1
+time: 225.478
+start: PerformFits
+fit status: -1  :  -1
+time: 76.5165
+start: PerformFits
+fit status: -1  :  -1
+time: 180.039
+start: PerformFits
+fit status: -1  :  -1
+time: 78.6081
+start: PerformFits
+fit status: -1  :  -1
+time: 146.112
+start: PerformFits
+fit status: -1  :  -1
+time: 74.7565
+start: PerformFits
+fit status: -1  :  -1
+time: 73.1337
+start: PerformFits
+fit status: -1  :  -1
+time: 1.83489
+start: PerformFits
+fit status: -1  :  -1
+time: 74.1633
+Not hypothosis two
+deltaChiSquaredPerHit  -3.22694
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 166
+fitResult.GetMinChiSquaredPerHit() 14.1982
+alpha = 1e-33
+pmax = 0.46984
+p0 = -3.01596e+29
+pc = 0.5
+deltaChiSquaredPerHit  -3.22694
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 166
+fitResult.GetMinChiSquaredPerHit() 14.1982
+alpha = 1e-33
+pmax = 0.46984
+p0 = -3.01596e+29
+pc = 0.5
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (49.5095, 109.982, 334.655)
+Endpoint position: (169.828, -78.0752, 382.119)
+Hypothosis: 0
+ymax 109.982
+ ^^ Pfo = 0x5a725d0
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 20
+total = 954
+ERROR: PFO is tiny!
+Skipping...
+ ^^ Pfo = 0x5cc5d20
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 279
+total = 731
+start: PerformFits
+fit status: -1  :  -1
+time: 49.1249
+start: PerformFits
+fit status: -1  :  -1
+time: 51.0316
+start: PerformFits
+fit status: -1  :  -1
+time: 49.358
+directionFitObject.GetMinChiSquaredPerHit() 2.38842  GetForwardsChiSquaredPerHit()2.38842  GetBackwardsChiSquaredPerHit()   10.5471         directionFitObject.GetNHits()  208
+Not hypothosis one
+start: PerformFits
+fit status: -1  :  -1
+time: 49.6083
+start: PerformFits
+fit status: -1  :  -1
+time: 5348.14
+start: PerformFits
+fit status: -1  :  -1
+time: 49.3183
+start: PerformFits
+fit status: -1  :  -1
+time: 49.1018
+start: PerformFits
+fit status: -1  :  -1
+time: 1.83848
+start: PerformFits
+fit status: -1  :  -1
+time: 49.295
+Not hypothosis two
+deltaChiSquaredPerHit  -8.15868
+(pow(((alpha + beta)/beta), beta/alpha)) 1.18675
+fitResult.GetNHits() 208
+fitResult.GetMinChiSquaredPerHit() 2.38842
+alpha = 0.168237
+pmax = 0.854288
+p0 = 0.945443
+pc = 0.806492
+deltaChiSquaredPerHit  -8.15868
+(pow(((alpha + beta)/beta), beta/alpha)) 1.18675
+fitResult.GetNHits() 208
+fitResult.GetMinChiSquaredPerHit() 2.38842
+alpha = 0.168237
+pmax = 0.854288
+p0 = 0.945443
+pc = 0.806492
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.806492
+Vertex position: (188.232, -26.8214, 881.954)
+Endpoint position: (243.168, 56.8451, 965.251)
+Hypothosis: 0
+ymax 56.8451
+ ^^ Pfo = 0x5d23180
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 9
+total = 23
+ERROR: PFO is tiny!
+Skipping...
+ ^^ Pfo = 0x5e51a10
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 222
+total = 1183
+start: PerformFits
+fit status: -1  :  -1
+time: 74.1651
+start: PerformFits
+fit status: -1  :  -1
+time: 77.1812
+start: PerformFits
+fit status: -1  :  -1
+time: 74.5495
+directionFitObject.GetMinChiSquaredPerHit() 14.1982  GetForwardsChiSquaredPerHit()14.1982  GetBackwardsChiSquaredPerHit()   17.4251         directionFitObject.GetNHits()  166
+Not hypothosis one
+start: PerformFits
+fit status: -1  :  -1
+time: 74.2258
+start: PerformFits
+fit status: -1  :  -1
+time: 235.117
+start: PerformFits
+fit status: -1  :  -1
+time: 78.4648
+start: PerformFits
+fit status: -1  :  -1
+time: 226.377
+start: PerformFits
+fit status: -1  :  -1
+time: 77.5304
+start: PerformFits
+fit status: -1  :  -1
+time: 228.623
+start: PerformFits
+fit status: -1  :  -1
+time: 73.5559
+start: PerformFits
+fit status: -1  :  -1
+time: 224.081
+start: PerformFits
+fit status: -1  :  -1
+time: 76.607
+start: PerformFits
+fit status: -1  :  -1
+time: 180.146
+start: PerformFits
+fit status: -1  :  -1
+time: 78.5738
+start: PerformFits
+fit status: -1  :  -1
+time: 147.085
+start: PerformFits
+fit status: -1  :  -1
+time: 74.8993
+start: PerformFits
+fit status: -1  :  -1
+time: 73.4998
+start: PerformFits
+fit status: -1  :  -1
+time: 1.83743
+start: PerformFits
+fit status: -1  :  -1
+time: 74.3211
+Not hypothosis two
+deltaChiSquaredPerHit  -3.22694
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 166
+fitResult.GetMinChiSquaredPerHit() 14.1982
+alpha = 1e-33
+pmax = 0.46984
+p0 = -3.01596e+29
+pc = 0.5
+deltaChiSquaredPerHit  -3.22694
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 166
+fitResult.GetMinChiSquaredPerHit() 14.1982
+alpha = 1e-33
+pmax = 0.46984
+p0 = -3.01596e+29
+pc = 0.5
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (49.5095, 109.982, 334.655)
+Endpoint position: (169.828, -78.0752, 382.119)
+Hypothosis: 0
+ymax 109.982
+ ^^ Pfo = 0x5a8d820
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 7
+total = 20
+ERROR: PFO is tiny!
+Skipping...
+ ^^ Pfo = 0x5ae6260
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 5
+total = 11
+ERROR: PFO is tiny!
+Skipping...
+ ^^ Pfo = 0x5af1a20
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 20
+total = 954
+ERROR: PFO is tiny!
+Skipping...
+ ^^ Pfo = 0x5cd1d00
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 6
+total = 16
+ERROR: PFO is tiny!
+Skipping...
+ ^^ Pfo = 0x5d42e20
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 279
+total = 738
+start: PerformFits
+fit status: -1  :  -1
+time: 49.5619
+start: PerformFits
+fit status: -1  :  -1
+time: 50.0121
+start: PerformFits
+fit status: -1  :  -1
+time: 49.3667
+directionFitObject.GetMinChiSquaredPerHit() 2.38842  GetForwardsChiSquaredPerHit()2.38842  GetBackwardsChiSquaredPerHit()   10.5471         directionFitObject.GetNHits()  208
+Not hypothosis one
+start: PerformFits
+fit status: -1  :  -1
+time: 49.1559
+start: PerformFits
+fit status: -1  :  -1
+time: 5328.52
+start: PerformFits
+fit status: -1  :  -1
+time: 49.2278
+start: PerformFits
+fit status: -1  :  -1
+time: 49.3897
+start: PerformFits
+fit status: -1  :  -1
+time: 1.83575
+start: PerformFits
+fit status: -1  :  -1
+time: 49.4878
+Not hypothosis two
+deltaChiSquaredPerHit  -8.15868
+(pow(((alpha + beta)/beta), beta/alpha)) 1.18675
+fitResult.GetNHits() 208
+fitResult.GetMinChiSquaredPerHit() 2.38842
+alpha = 0.168237
+pmax = 0.854288
+p0 = 0.945443
+pc = 0.806492
+deltaChiSquaredPerHit  -8.15868
+(pow(((alpha + beta)/beta), beta/alpha)) 1.18675
+fitResult.GetNHits() 208
+fitResult.GetMinChiSquaredPerHit() 2.38842
+alpha = 0.168237
+pmax = 0.854288
+p0 = 0.945443
+pc = 0.806492
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.806492
+Vertex position: (188.269, -26.6398, 882.069)
+Endpoint position: (243.17, 56.8435, 965.252)
+Hypothosis: 0
+ymax 56.8435
+ ^^ Pfo = 0x5eec630
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 5
+total = 13
+ERROR: PFO is tiny!
+Skipping...
+ ^^ Pfo = 0x5ee8780
+------------------Done Running over Slices---------------------
+slice size neutrino Id 3
+3 <----- nuSliceHypotheses.size() (nSlices)
+-1-1
+-1-1
+-----------------start of new slice loop---------------------------------
+nuProbability : 0.00404308
+Cosmic: Pfo : 0x5a8d820
+Found 0x5a8d820 0.5
+Cosmic: Pfo : 0x5ae6260
+Found 0x5ae6260 -1
+Cosmic: Pfo : 0x5af1a20
+Found 0x5af1a20 -1
+Neutrino: Pfo : 0x5a4f400
+Neutrino: Pfo Id : 14
+Neutrino: Hits : 0
+Daughter: Pfo : 0x5a725d0
+Daughter: Pfo Id : 13
+Daughter: Hits : 0
+Found 0x5a725d0 0.5
+downprobcr size = 1
+downprobnu size = 1
+ --- 
+ minprobcr 0.5
+ maxprobcr 0.5
+ --- 
+ minprobnu 0.5
+ maxprobnu 0.5
+ ------- 
+-----------------start of new slice loop---------------------------------
+nuProbability : 0.02499
+Cosmic: Pfo : 0x5cd1d00
+Found 0x5cd1d00 -1
+Cosmic: Pfo : 0x5d42e20
+Found 0x5d42e20 -1
+Neutrino: Pfo : 0x5cc5b20
+Neutrino: Pfo Id : 14
+Neutrino: Hits : 0
+Daughter: Pfo : 0x5cc5d20
+Daughter: Pfo Id : 13
+Daughter: Hits : 0
+Found 0x5cc5d20 -1
+downprobcr size = 0
+downprobnu size = 0
+-----------------start of new slice loop---------------------------------
+nuProbability : 0.142177
+Cosmic: Pfo : 0x5eec630
+Found 0x5eec630 0.806492
+Cosmic: Pfo : 0x5ee8780
+Found 0x5ee8780 -1
+Neutrino: Pfo : 0x5a93670
+Neutrino: Pfo Id : 14
+Neutrino: Hits : 0
+Daughter: Pfo : 0x5d23180
+Daughter: Pfo Id : 13
+Daughter: Hits : 0
+Found 0x5d23180 0.806492
+Daughter: Pfo : 0x5e51a10
+Daughter: Pfo Id : 13
+Daughter: Hits : 0
+Found 0x5e51a10 -1
+downprobcr size = 1
+downprobnu size = 1
+ --- 
+ minprobcr 0.806492
+ maxprobcr 0.806492
+ --- 
+ minprobnu 0.806492
+ maxprobnu 0.806492
+ ------- 
+m_maxNeutrinos 1
+Calling this a neutrino!  2
+Calling this a cosmic!
+Calling this a cosmic!
+3  3  6  11  3
+nu hits in mc 760
+Selected? 0
+total hits in slice 1403
+nu hits in slice 5
+shared hits: 0
+completeness = 0
+purity = 0
+isSelectedAsNu = 0
+-----------------------------------
+Selected? 0
+total hits in slice 1039
+nu hits in slice 30
+shared hits: 0
+completeness = 0
+purity = 0
+isSelectedAsNu = 0
+-----------------------------------
+Selected? 1
+total hits in slice 807
+nu hits in slice 780
+shared hits: 760
+completeness = 1
+purity = 0.974359
+isSelectedAsNu = 1
+-----------------------------------
+sum comp = 1
+true = 1
+---INTERPRETED-MATCHING-OUTPUT------------------------------------------------------------------
+CCQEL_MU_P (Nuance 1001, Nu 1, CR 0)
+IsCorrectNu (NNuMatches: 2) 
+PrimaryId 1, Nu 1, CR 0, MCPDG 13, Energy 0.437062, Dist. 138.017, nMCHits 730 (90, 362, 278)
+-MatchedPfoId 1, Nu 1 [NuId: 1], CR 0, PDG 13, nMatchedHits 730 (90, 362, 278), nPfoHits 732 (90, 362, 280)
+PrimaryId 2, Nu 1, CR 0, MCPDG 2212, Energy 0.998064, Dist. 3.20237, nMCHits 19 (6, 4, 9)
+-MatchedPfoId 2, Nu 1 [NuId: 1], CR 0, PDG 13, nMatchedHits 19 (6, 4, 9), nPfoHits 28 (9, 7, 12)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 3, Nu 0, CR 1, MCPDG -13, Energy 1.22143, Dist. 321.962, nMCHits 1547 (554, 642, 351)
+-MatchedPfoId 4, Nu 0, CR 1, PDG 13, nMatchedHits 1538 (549, 638, 351), nPfoHits 1544 (551, 642, 351)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 4, Nu 0, CR 1, MCPDG -13, Energy 6.13137, Dist. 308.507, nMCHits 1539 (307, 805, 427)
+-MatchedPfoId 5, Nu 0, CR 1, PDG 13, nMatchedHits 1535 (303, 805, 427), nPfoHits 1536 (303, 805, 428)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 5, Nu 0, CR 1, MCPDG 13, Energy 6.24614, Dist. 302.067, nMCHits 1535 (737, 503, 295)
+-MatchedPfoId 3, Nu 0, CR 1, PDG 13, nMatchedHits 1529 (735, 499, 295), nPfoHits 2075 (750, 1030, 295)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 6, Nu 0, CR 1, MCPDG -13, Energy 2.66198, Dist. 279.572, nMCHits 1457 (405, 752, 300)
+-MatchedPfoId 6, Nu 0, CR 1, PDG 13, nMatchedHits 1448 (400, 752, 296), nPfoHits 1471 (407, 768, 296)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 7, Nu 0, CR 1, MCPDG 13, Energy 2.70896, Dist. 281.41, nMCHits 1420 (621, 587, 212)
+-MatchedPfoId 16, Nu 0, CR 1, PDG 13, nMatchedHits 820 (608, 0, 212), nPfoHits 825 (613, 0, 212)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 8, Nu 0, CR 1, MCPDG -13, Energy 1.80098, Dist. 256.756, nMCHits 1341 (627, 652, 62)
+-MatchedPfoId 7, Nu 0, CR 1, PDG 13, nMatchedHits 1339 (627, 650, 62), nPfoHits 1351 (634, 655, 62)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 9, Nu 0, CR 1, MCPDG -13, Energy 1.21925, Dist. 271.729, nMCHits 1283 (516, 640, 127)
+-MatchedPfoId 8, Nu 0, CR 1, PDG 13, nMatchedHits 1277 (514, 638, 125), nPfoHits 1283 (515, 643, 125)
+-(Below threshold) MatchedPfoId 34, Nu 0, CR 1, PDG 13, nMatchedHits 6 (2, 2, 2), nPfoHits 6 (2, 2, 2)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 10, Nu 0, CR 1, MCPDG -13, Energy 0.736301, Dist. 265.752, nMCHits 1199 (519, 452, 228)
+-MatchedPfoId 9, Nu 0, CR 1, PDG 13, nMatchedHits 1185 (510, 452, 223), nPfoHits 1241 (510, 508, 223)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 11, Nu 0, CR 1, MCPDG 13, Energy 35.7727, Dist. 225.968, nMCHits 1175 (583, 276, 316)
+-MatchedPfoId 10, Nu 0, CR 1, PDG 13, nMatchedHits 1159 (580, 264, 315), nPfoHits 1171 (588, 264, 319)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 12, Nu 0, CR 1, MCPDG -13, Energy 2.06343, Dist. 291.998, nMCHits 1158 (559, 432, 167)
+-MatchedPfoId 11, Nu 0, CR 1, PDG 13, nMatchedHits 1156 (557, 432, 167), nPfoHits 1160 (561, 432, 167)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 13, Nu 0, CR 1, MCPDG 13, Energy 4.22638, Dist. 249.415, nMCHits 1106 (530, 307, 269)
+-MatchedPfoId 12, Nu 0, CR 1, PDG 13, nMatchedHits 1095 (524, 302, 269), nPfoHits 1095 (524, 302, 269)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 14, Nu 0, CR 1, MCPDG 13, Energy 3.87717, Dist. 263.913, nMCHits 1048 (422, 460, 166)
+-MatchedPfoId 13, Nu 0, CR 1, PDG 13, nMatchedHits 1047 (421, 460, 166), nPfoHits 1047 (421, 460, 166)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 15, Nu 0, CR 1, MCPDG 13, Energy 0.977929, Dist. 196.531, nMCHits 970 (474, 472, 24)
+-MatchedPfoId 14, Nu 0, CR 1, PDG 13, nMatchedHits 964 (472, 470, 22), nPfoHits 966 (472, 472, 22)
+-(Below threshold) MatchedPfoId 35, Nu 0, CR 1, PDG 13, nMatchedHits 6 (2, 2, 2), nPfoHits 6 (2, 2, 2)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 16, Nu 0, CR 1, MCPDG 13, Energy 2.68203, Dist. 209.025, nMCHits 906 (304, 395, 207)
+-MatchedPfoId 15, Nu 0, CR 1, PDG 13, nMatchedHits 899 (300, 395, 204), nPfoHits 904 (302, 395, 207)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 17, Nu 0, CR 1, MCPDG -13, Energy 2.05478, Dist. 151.228, nMCHits 772 (323, 344, 105)
+-MatchedPfoId 17, Nu 0, CR 1, PDG 13, nMatchedHits 769 (323, 341, 105), nPfoHits 769 (323, 341, 105)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 18, Nu 0, CR 1, MCPDG 13, Energy 17.644, Dist. 200.554, nMCHits 760 (368, 306, 86)
+-MatchedPfoId 18, Nu 0, CR 1, PDG 13, nMatchedHits 752 (363, 303, 86), nPfoHits 753 (364, 303, 86)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 19, Nu 0, CR 1, MCPDG 13, Energy 5.2332, Dist. 209.701, nMCHits 753 (275, 371, 107)
+-MatchedPfoId 19, Nu 0, CR 1, PDG 13, nMatchedHits 751 (275, 369, 107), nPfoHits 753 (277, 369, 107)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 20, Nu 0, CR 1, MCPDG -13, Energy 3.92998, Dist. 295.067, nMCHits 594 (155, 295, 144)
+-MatchedPfoId 20, Nu 0, CR 1, PDG 13, nMatchedHits 592 (155, 295, 142), nPfoHits 592 (155, 295, 142)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 21, Nu 0, CR 1, MCPDG 13, Energy 1.65699, Dist. 135.857, nMCHits 575 (285, 95, 195)
+-MatchedPfoId 21, Nu 0, CR 1, PDG 13, nMatchedHits 575 (285, 95, 195), nPfoHits 580 (288, 95, 197)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 22, Nu 0, CR 1, MCPDG -13, Energy 2.45382, Dist. 279.161, nMCHits 573 (263, 198, 112)
+-MatchedPfoId 22, Nu 0, CR 1, PDG 13, nMatchedHits 573 (263, 198, 112), nPfoHits 578 (268, 198, 112)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 23, Nu 0, CR 1, MCPDG -13, Energy 0.649442, Dist. 217.736, nMCHits 562 (197, 242, 123)
+-MatchedPfoId 23, Nu 0, CR 1, PDG 13, nMatchedHits 562 (197, 242, 123), nPfoHits 566 (197, 246, 123)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 24, Nu 0, CR 1, MCPDG 13, Energy 1.26166, Dist. 107.766, nMCHits 457 (168, 220, 69)
+-MatchedPfoId 24, Nu 0, CR 1, PDG 13, nMatchedHits 454 (168, 220, 66), nPfoHits 457 (168, 220, 69)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 25, Nu 0, CR 1, MCPDG -13, Energy 0.318371, Dist. 81.1192, nMCHits 356 (120, 170, 66)
+-MatchedPfoId 25, Nu 0, CR 1, PDG 13, nMatchedHits 343 (111, 166, 66), nPfoHits 343 (111, 166, 66)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 26, Nu 0, CR 1, MCPDG 13, Energy 0.497477, Dist. 166.628, nMCHits 230 (71, 103, 56)
+-MatchedPfoId 26, Nu 0, CR 1, PDG 13, nMatchedHits 227 (68, 103, 56), nPfoHits 227 (68, 103, 56)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 27, Nu 0, CR 1, MCPDG -13, Energy 1.04521, Dist. 270.311, nMCHits 223 (92, 83, 48)
+-MatchedPfoId 27, Nu 0, CR 1, PDG 13, nMatchedHits 223 (92, 83, 48), nPfoHits 223 (92, 83, 48)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 28, Nu 0, CR 1, MCPDG 13, Energy 7.86925, Dist. 192.312, nMCHits 162 (43, 72, 47)
+-MatchedPfoId 28, Nu 0, CR 1, PDG 13, nMatchedHits 162 (43, 72, 47), nPfoHits 162 (43, 72, 47)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 29, Nu 0, CR 1, MCPDG -13, Energy 1.75182, Dist. 179.026, nMCHits 71 (29, 35, 7)
+-MatchedPfoId 29, Nu 0, CR 1, PDG 13, nMatchedHits 69 (27, 35, 7), nPfoHits 69 (27, 35, 7)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 30, Nu 0, CR 1, MCPDG -13, Energy 3.02786, Dist. 282.177, nMCHits 31 (6, 17, 8)
+-MatchedPfoId 30, Nu 0, CR 1, PDG 13, nMatchedHits 31 (6, 17, 8), nPfoHits 31 (6, 17, 8)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 31, Nu 0, CR 1, MCPDG -13, Energy 3.1525, Dist. 289.922, nMCHits 26 (11, 9, 6)
+-MatchedPfoId 31, Nu 0, CR 1, PDG 13, nMatchedHits 26 (11, 9, 6), nPfoHits 26 (11, 9, 6)
+
+---SUMMARY--------------------------------------------------------------------------------------
+#CorrectNu: 1/1, Fraction: 1
+#CorrectCR: 29/29, Fraction: 1
+------------------------------------------------------------------------------------------------
+
+     
+CLEAR FINAL STATE? 1
+total = 1263
+total W = 199
+cluster size = 4
+length = 67.8658
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 1109
+total W = 380
+cluster size = 4
+length = 191.642
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 434
+total W = 96
+cluster size = 4
+length = 76.4395
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300169
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 2
+cluster size = 4
+length = 0.299991
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 2
+cluster size = 4
+length = 0.300369
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 12
+total W = 4
+cluster size = 4
+length = 0.904096
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 21
+total W = 4
+cluster size = 4
+length = 0.914713
+final directioncosmic : 1
+down probability : -4
+     
+CLEAR FINAL STATE? 1
+total = 20
+total W = 7
+cluster size = 4
+length = 8.43997
+final directioncosmic : 0
+down probability : -1
+Failure in algorithm Alg0003, LArMaster, STATUS_CODE_ALREADY_PRESENT
+---INTERPRETED-MATCHING-OUTPUT------------------------------------------------------------------
+CCQEL_MU_P (Nuance 1001, Nu 1, CR 0)
+IsFakeCR (NNuLosses: 1) (NCRMatches: 1) 
+PrimaryId 1, Nu 1, CR 0, MCPDG 13, Energy 0.397249, Dist. 120.382, nMCHits 429 (229, 100, 100)
+-MatchedPfoId 13, Nu 0, CR 1, PDG 13, nMatchedHits 413 (223, 98, 92), nPfoHits 436 (231, 108, 97)
+PrimaryId 2, Nu 1, CR 0, MCPDG 2212, Energy 0.999654, Dist. 3.31961, nMCHits 23 (8, 10, 5)
+-No matched Pfo
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 3, Nu 0, CR 1, MCPDG -13, Energy 4.18909, Dist. 357.59, nMCHits 1784 (983, 245, 556)
+-MatchedPfoId 2, Nu 0, CR 1, PDG 13, nMatchedHits 1784 (983, 245, 556), nPfoHits 1800 (989, 247, 564)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 4, Nu 0, CR 1, MCPDG -13, Energy 2.78385, Dist. 336.162, nMCHits 1658 (233, 608, 817)
+-MatchedPfoId 1, Nu 0, CR 1, PDG 13, nMatchedHits 1658 (233, 608, 817), nPfoHits 1891 (382, 692, 817)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 5, Nu 0, CR 1, MCPDG -13, Energy 1.89941, Dist. 266.524, nMCHits 1599 (799, 561, 239)
+-MatchedPfoId 3, Nu 0, CR 1, PDG 13, nMatchedHits 1595 (799, 557, 239), nPfoHits 1595 (799, 557, 239)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 6, Nu 0, CR 1, MCPDG -13, Energy 3.01136, Dist. 338.074, nMCHits 1412 (492, 642, 278)
+-MatchedPfoId 4, Nu 0, CR 1, PDG 13, nMatchedHits 1404 (486, 642, 276), nPfoHits 1415 (487, 652, 276)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 7, Nu 0, CR 1, MCPDG 13, Energy 2.96688, Dist. 267.423, nMCHits 1289 (451, 625, 213)
+-MatchedPfoId 5, Nu 0, CR 1, PDG 13, nMatchedHits 1289 (451, 625, 213), nPfoHits 1289 (451, 625, 213)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 8, Nu 0, CR 1, MCPDG -13, Energy 16.0477, Dist. 271.326, nMCHits 1272 (485, 534, 253)
+-MatchedPfoId 6, Nu 0, CR 1, PDG 13, nMatchedHits 1272 (485, 534, 253), nPfoHits 1274 (487, 534, 253)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 9, Nu 0, CR 1, MCPDG 13, Energy 1.02765, Dist. 257.806, nMCHits 1261 (526, 638, 97)
+-MatchedPfoId 7, Nu 0, CR 1, PDG 13, nMatchedHits 1259 (526, 636, 97), nPfoHits 1260 (527, 636, 97)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 10, Nu 0, CR 1, MCPDG -13, Energy 1.00391, Dist. 212.442, nMCHits 1179 (562, 145, 472)
+-MatchedPfoId 8, Nu 0, CR 1, PDG 13, nMatchedHits 1179 (562, 145, 472), nPfoHits 1179 (562, 145, 472)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 11, Nu 0, CR 1, MCPDG -13, Energy 2.11624, Dist. 252.391, nMCHits 1121 (506, 230, 385)
+-MatchedPfoId 9, Nu 0, CR 1, PDG 13, nMatchedHits 1114 (505, 224, 385), nPfoHits 1119 (508, 224, 387)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 12, Nu 0, CR 1, MCPDG -13, Energy 6.4543, Dist. 219.443, nMCHits 1066 (536, 331, 199)
+-MatchedPfoId 10, Nu 0, CR 1, PDG 13, nMatchedHits 1066 (536, 331, 199), nPfoHits 1068 (536, 333, 199)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 13, Nu 0, CR 1, MCPDG -13, Energy 6.30181, Dist. 152.686, nMCHits 720 (352, 301, 67)
+-MatchedPfoId 11, Nu 0, CR 1, PDG 13, nMatchedHits 720 (352, 301, 67), nPfoHits 720 (352, 301, 67)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 14, Nu 0, CR 1, MCPDG -13, Energy 3.96973, Dist. 315.745, nMCHits 558 (109, 236, 213)
+-MatchedPfoId 12, Nu 0, CR 1, PDG 13, nMatchedHits 551 (109, 236, 206), nPfoHits 551 (109, 236, 206)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 15, Nu 0, CR 1, MCPDG -13, Energy 1.30463, Dist. 254.014, nMCHits 470 (213, 114, 143)
+-MatchedPfoId 15, Nu 0, CR 1, PDG 13, nMatchedHits 257 (0, 114, 143), nPfoHits 257 (0, 114, 143)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 16, Nu 0, CR 1, MCPDG 13, Energy 1.16932, Dist. 80.6833, nMCHits 303 (151, 74, 78)
+-MatchedPfoId 14, Nu 0, CR 1, PDG 13, nMatchedHits 303 (151, 74, 78), nPfoHits 303 (151, 74, 78)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 17, Nu 0, CR 1, MCPDG -13, Energy 2.77281, Dist. 182.381, nMCHits 140 (35, 84, 21)
+-MatchedPfoId 17, Nu 0, CR 1, PDG 13, nMatchedHits 50 (31, 0, 19), nPfoHits 50 (31, 0, 19)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 18, Nu 0, CR 1, MCPDG -13, Energy 0.731541, Dist. 148.387, nMCHits 139 (30, 42, 67)
+-MatchedPfoId 16, Nu 0, CR 1, PDG 13, nMatchedHits 139 (30, 42, 67), nPfoHits 139 (30, 42, 67)
+
+---SUMMARY--------------------------------------------------------------------------------------
+#CorrectNu: 0/1, Fraction: 0
+#CorrectCR: 16/16, Fraction: 1
+#FakeCR: 1 
+------------------------------------------------------------------------------------------------
+
+     
+CLEAR FINAL STATE? 1
+total = 504
+total W = 247
+cluster size = 4
+length = 96.4074
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 538
+total W = 111
+cluster size = 4
+length = 78.6439
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 549
+total W = 206
+cluster size = 4
+length = 74.7571
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 95
+total W = 0
+cluster size = 3
+length = 24.295
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 19
+total W = 6
+cluster size = 4
+length = 1.33446
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 17
+total W = 5
+cluster size = 4
+length = 1.20768
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.301996
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300814
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300147
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 3
+cluster size = 4
+length = 0.607945
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 10
+total W = 4
+cluster size = 4
+length = 0.939285
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 12
+total W = 3
+cluster size = 4
+length = 0.607708
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 3
+cluster size = 4
+length = 1.20977
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 16
+total W = 3
+cluster size = 4
+length = 0.600234
+final directioncosmic : 1
+down probability : -3
+     
+CLEAR FINAL STATE? 1
+total = 16
+total W = 6
+cluster size = 4
+length = 1.5551
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 13
+total W = 4
+cluster size = 4
+length = 1.16715
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 2
+cluster size = 4
+length = 0.355365
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.30009
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.300005
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 9
+total W = 3
+cluster size = 4
+length = 0.601965
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.38563
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 14
+total W = 4
+cluster size = 4
+length = 0.847733
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 9
+total W = 3
+cluster size = 4
+length = 0.605719
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300279
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300028
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 43
+total W = 4
+cluster size = 4
+length = 0.909275
+final directioncosmic : 1
+down probability : -4
+     
+CLEAR FINAL STATE? 1
+total = 18
+total W = 2
+cluster size = 4
+length = 0.308743
+final directioncosmic : 1
+down probability : -3
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 2
+cluster size = 4
+length = 0.300806
+final directioncosmic : 1
+down probability : -2
+|[1m MCParticle [0m|[1m[0m|[1m[0m|[1m Pfo [0m|[1m nSharedHits [0m|[1m[0m|[1m Pfo [0m|[1m nSharedHits [0m|[1m[0m|[1m Pfo [0m|[1m nSharedHits [0m|
+|[0m ---------- [0m|[0m[0m|[0m[0m|[0m --- [0m|[0m ----------- [0m|[0m[0m|[0m --- [0m|[0m ----------- [0m|[0m[0m|[0m --- [0m|[0m ----------- [0m|
+|[0m[92m          1 [0m|[0m|[0m|[0m[91m   1 [0m|[0m[91m         504 [0m|[0m|[0m[39m     [0m|[0m[39m             [0m|[0m|[0m[39m     [0m|[0m[39m             [0m|
+|[0m[92m          2 [0m|[0m|[0m|[0m[91m   2 [0m|[0m[91m         317 [0m|[0m|[0m[91m   3 [0m|[0m[91m           3 [0m|[0m|[0m[91m   4 [0m|[0m[91m           2 [0m|
+  
+Primary MCParticle 0x77f5ba0
+  - PDG : 13
+  - NHits : 504
+  
+  
+Primary MCParticle 0x77f5c70
+  - PDG : 211
+  - NHits : 319
+  
+Pfo 0x8264790
+  - PDG : 13
+  - NHits shared total: 504
+  - is final state?: 1
+hits in pfo = 538
+hits in pfo W = 111
+length in W = 78.6439
+Purity temp = 504  over  538
+Sig temp = 504  over  504
+Purity = 0.936803
+Sig = 1
+is down? 1
+Unclear
+                                  
+Pfo 0x8211ac0
+  - PDG : 13
+  - NHits shared total: 317
+  - is final state?: 1
+hits in pfo = 504
+hits in pfo W = 247
+length in W = 96.4074
+Purity temp = 317  over  504
+Sig temp = 317  over  319
+Purity = 0.628968
+Sig = 0.99373
+is down? 1
+Unclear
+                                  
+Pfo 0x82160b0
+  - PDG : 11
+  - NHits shared total: 3
+  - is final state?: 0
+Pfo 0x45f48a0
+  - PDG : 13
+  - NHits shared total: 2
+  - is final state?: 1
+hits in pfo = 1119
+hits in pfo W = 216
+length in W = 95.4094
+Purity temp = 2  over  1119
+Sig temp = 2  over  319
+Purity = 0.00178731
+Sig = 0.00626959
+is down? 1
+Clear Cosmic
+hits in pfo = 1119
+hits in pfo W = 216
+length in W = 95.4094
+Tagged as a CR
+                                  
+Pfo 0x46f3b10
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1584
+hits in pfo W = 430
+length in W = 139.528
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1584
+hits in pfo W = 430
+length in W = 139.528
+Tagged as a CR
+                                  
+Pfo 0x4557360
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1545
+hits in pfo W = 612
+length in W = 202.598
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1545
+hits in pfo W = 612
+length in W = 202.598
+Tagged as a CR
+                                  
+Pfo 0x84610e0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1530
+hits in pfo W = 270
+length in W = 78.3424
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1530
+hits in pfo W = 270
+length in W = 78.3424
+Tagged as a CR
+                                  
+Pfo 0x47b71d0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1398
+hits in pfo W = 420
+length in W = 176.908
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1398
+hits in pfo W = 420
+length in W = 176.908
+Tagged as a CR
+                                  
+Pfo 0x4462390
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1304
+hits in pfo W = 169
+length in W = 73.4399
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1304
+hits in pfo W = 169
+length in W = 73.4399
+Tagged as a CR
+                                  
+Pfo 0x81bc230
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1193
+hits in pfo W = 253
+length in W = 190.336
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1193
+hits in pfo W = 253
+length in W = 190.336
+Tagged as a CR
+                                  
+Pfo 0x8068850
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1172
+hits in pfo W = 525
+length in W = 204.142
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1172
+hits in pfo W = 525
+length in W = 204.142
+Tagged as a CR
+                                  
+Pfo 0x531a4c0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1140
+hits in pfo W = 278
+length in W = 103.493
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1140
+hits in pfo W = 278
+length in W = 103.493
+Tagged as a CR
+                                  
+Pfo 0x8339e60
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1067
+hits in pfo W = 151
+length in W = 118.893
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1067
+hits in pfo W = 151
+length in W = 118.893
+Tagged as a CR
+                                  
+Pfo 0x52023c0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1025
+hits in pfo W = 188
+length in W = 58.4158
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1025
+hits in pfo W = 188
+length in W = 58.4158
+Tagged as a CR
+                                  
+Pfo 0x8104910
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1003
+hits in pfo W = 218
+length in W = 189.48
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1003
+hits in pfo W = 218
+length in W = 189.48
+Tagged as a CR
+                                  
+Pfo 0x5267b30
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 759
+hits in pfo W = 187
+length in W = 98.7834
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 759
+hits in pfo W = 187
+length in W = 98.7834
+Tagged as a CR
+                                  
+Pfo 0x53bc4e0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 740
+hits in pfo W = 276
+length in W = 135.674
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 740
+hits in pfo W = 276
+length in W = 135.674
+Tagged as a CR
+                                  
+Pfo 0x535d490
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 657
+hits in pfo W = 305
+length in W = 141.101
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 657
+hits in pfo W = 305
+length in W = 141.101
+Tagged as a CR
+                                  
+Pfo 0x84ff550
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 549
+hits in pfo W = 206
+length in W = 74.7571
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 549
+hits in pfo W = 206
+length in W = 74.7571
+potential neutrino
+                                  
+Pfo 0x5139250
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 380
+hits in pfo W = 65
+length in W = 27.776
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 380
+hits in pfo W = 65
+length in W = 27.776
+Tagged as a CR
+                                  
+Pfo 0x8289f80
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 339
+hits in pfo W = 118
+length in W = 35.231
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 339
+hits in pfo W = 118
+length in W = 35.231
+Tagged as a CR
+                                  
+Pfo 0x8488820
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 330
+hits in pfo W = 64
+length in W = 19.5648
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 330
+hits in pfo W = 64
+length in W = 19.5648
+Tagged as a CR
+                                  
+Pfo 0x85389a0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 316
+hits in pfo W = 129
+length in W = 70.699
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 316
+hits in pfo W = 129
+length in W = 70.699
+Tagged as a CR
+                                  
+Pfo 0x51632b0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 276
+hits in pfo W = 44
+length in W = 46.7869
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 276
+hits in pfo W = 44
+length in W = 46.7869
+Tagged as a CR
+                                  
+Pfo 0x50da100
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 251
+hits in pfo W = 65
+length in W = 34.2849
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 251
+hits in pfo W = 65
+length in W = 34.2849
+Tagged as a CR
+                                  
+Pfo 0x835f7f0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 168
+hits in pfo W = 34
+length in W = 11.3111
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 168
+hits in pfo W = 34
+length in W = 11.3111
+Tagged as a CR
+                                  
+Pfo 0x84998e0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x834e920
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 157
+hits in pfo W = 35
+length in W = 24.1335
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 157
+hits in pfo W = 35
+length in W = 24.1335
+Tagged as a CR
+                                  
+Pfo 0x836f180
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 148
+hits in pfo W = 17
+length in W = 8.38339
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 148
+hits in pfo W = 17
+length in W = 8.38339
+Tagged as a CR
+                                  
+Pfo 0x8071d40
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x53c9fd0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8292040
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x53d48e0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x850ac00
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 95
+hits in pfo W = 0
+length in W = 24.295
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 95
+hits in pfo W = 0
+length in W = 24.295
+potential neutrino
+                                  
+Pfo 0x84a1570
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6259c30
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 78
+hits in pfo W = 12
+length in W = 5.09864
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 78
+hits in pfo W = 12
+length in W = 5.09864
+Tagged as a CR
+                                  
+Pfo 0x8467ea0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x53d9fa0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4466f60
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x625cce0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 43
+hits in pfo W = 4
+length in W = 0.909275
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 43
+hits in pfo W = 4
+length in W = 0.909275
+Tagged as a CR
+                                  
+Pfo 0x455b900
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4600610
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81084a0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x84a50f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81bf4a0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8079780
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x53623c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x810b280
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x526a9f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x80769e0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x45fc9b0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x810dc90
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x50dc9c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81c4930
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x531cd60
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x45f9e70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8214310
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x853cf30
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 19
+hits in pfo W = 6
+length in W = 1.33446
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 19
+hits in pfo W = 6
+length in W = 1.33446
+potential neutrino
+                                  
+Pfo 0x81c7130
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81c1dc0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x62600e0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 18
+hits in pfo W = 2
+length in W = 0.308743
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 18
+hits in pfo W = 2
+length in W = 0.308743
+Tagged as a CR
+                                  
+Pfo 0x53be850
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x853f380
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 17
+hits in pfo W = 5
+length in W = 1.20768
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 17
+hits in pfo W = 5
+length in W = 1.20768
+potential neutrino
+                                  
+Pfo 0x513eb70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x47b9390
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x622e9a0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 16
+hits in pfo W = 6
+length in W = 1.5551
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 16
+hits in pfo W = 6
+length in W = 1.5551
+potential neutrino
+                                  
+Pfo 0x622b9a0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 16
+hits in pfo W = 3
+length in W = 0.600234
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 16
+hits in pfo W = 3
+length in W = 0.600234
+Tagged as a CR
+                                  
+Pfo 0x853aad0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 16
+hits in pfo W = 5
+length in W = 1.18628
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 16
+hits in pfo W = 5
+length in W = 1.18628
+Tagged as a CR
+                                  
+Pfo 0x5320100
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x62483b0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 15
+hits in pfo W = 6
+length in W = 1.60921
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 15
+hits in pfo W = 6
+length in W = 1.60921
+Tagged as a CR
+                                  
+Pfo 0x45f66b0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x47bb270
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6245400
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x526ef10
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x62429d0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6231040
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x513ad00
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x833d930
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6240400
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x513c9a0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8073940
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6226b60
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x833b5d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x526d310
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x810f200
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x807af30
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6224ed0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x62208a0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x535ed20
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81c8650
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x624a1a0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x8500b00
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x807c210
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x623be00
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6239dd0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x807efb0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6234680
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x526bd10
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x807d210
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x82156c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6223490
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6221e50
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x45f79d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x621f010
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x62655d0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6261b60
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6228800
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x8294590
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x82966f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x807fed0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5164430
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x623d8c0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x81104d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x82957d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8360950
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6237db0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6263710
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6236230
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6232980
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x4602b00
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8469000
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x84a7b10
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x531dec0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x455c940
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x624d3a0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x81caa70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x82931a0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4469220
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4469fd0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x44680c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x84a5fc0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x621da60
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x8541920
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x82658f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x624ba50
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x8540650
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x455d850
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81cd550
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x836fd70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81c9240
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8266570
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5164ff0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x84a6bb0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x807de00
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81c9ba0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4601a80
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8297170
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5202e10
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x455e2d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x455f860
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4601000
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81cc960
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x446a9c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81cbee0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5320c10
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8112330
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8216bc0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x833bfc0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8110ec0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4560370
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81cb460
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x81118b0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x455ed50
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4560e80
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x833e440
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4603580
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+   
+Tagged clear cosmic = 85.7143%
+clear cosmic identified as neutrino = 14.2857%
+protected clear neutrinos = -nan%
+clear neutrino identified as cosmic = -nan%
+ daughters 0x63cb060
+ daughters 0x65c6630
+ daughters 0x65c6900
+ daughters 0x65c5e30
+crnut 0x6419710
+crnut 0x661dec0
+crnut 0x65be0c0
+crnut 0x65c1930
+crnut 0x663c750
+ size   :   9
+------------------Running over Slices---------------------
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 210
+total = 553
+start: PerformFits
+fit status: -1  :  -1
+time: 65.682
+start: PerformFits
+fit status: -1  :  -1
+time: 67.5434
+start: PerformFits
+fit status: -1  :  -1
+time: 65.6969
+directionFitObject.GetMinChiSquaredPerHit() 1.20246  GetForwardsChiSquaredPerHit()2.38821  GetBackwardsChiSquaredPerHit()   1.20246         directionFitObject.GetNHits()  157
+Applied Hypothesis #1 (Single Clean Particle)
+returned
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (139.683, -109.873, 2.78852)
+Endpoint position: (169.154, -39.473, 71.1162)
+Hypothosis: 1
+ymax -39.473
+ ^^ Pfo = 0x63cb060
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 111
+total = 538
+start: PerformFits
+fit status: -1  :  -1
+time: 93.0164
+start: PerformFits
+fit status: -1  :  -1
+time: 92.9051
+start: PerformFits
+fit status: -1  :  -1
+time: 93.4627
+directionFitObject.GetMinChiSquaredPerHit() 1.09543  GetForwardsChiSquaredPerHit()1.78262  GetBackwardsChiSquaredPerHit()   1.09543         directionFitObject.GetNHits()  83
+Applied Hypothesis #1 (Single Clean Particle)
+returned
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (184.949, 31.6307, 25.3327)
+Endpoint position: (255.451, 104.888, 62.5785)
+Hypothosis: 1
+ymax 104.888
+ ^^ Pfo = 0x65c6630
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 243
+total = 494
+start: PerformFits
+fit status: -1  :  -1
+time: 44.6651
+start: PerformFits
+fit status: -1  :  -1
+time: 45.394
+start: PerformFits
+fit status: -1  :  -1
+time: 45.7726
+directionFitObject.GetMinChiSquaredPerHit() 6.88416  GetForwardsChiSquaredPerHit()6.88416  GetBackwardsChiSquaredPerHit()   29.2902         directionFitObject.GetNHits()  173
+Not hypothosis one
+start: PerformFits
+fit status: -1  :  -1
+time: 45.4534
+start: PerformFits
+fit status: -1  :  -1
+time: 2184.69
+start: PerformFits
+fit status: -1  :  -1
+time: 47.8226
+start: PerformFits
+fit status: -1  :  -1
+time: 66.8023
+start: PerformFits
+fit status: -1  :  -1
+time: 31.8242
+start: PerformFits
+fit status: -1  :  -1
+time: 45.5238
+start: PerformFits
+fit status: -1  :  -1
+time: 17.6166
+start: PerformFits
+fit status: -1  :  -1
+time: 47.3458
+start: PerformFits
+fit status: -1  :  -1
+time: 6.90984
+start: PerformFits
+fit status: -1  :  -1
+time: 50.876
+Not hypothosis two
+deltaChiSquaredPerHit  -22.4061
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 173
+fitResult.GetMinChiSquaredPerHit() 6.88416
+alpha = 1e-33
+pmax = 0.705743
+p0 = 2.05743e+30
+pc = 0.5
+deltaChiSquaredPerHit  -22.4061
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 173
+fitResult.GetMinChiSquaredPerHit() 6.88416
+alpha = 1e-33
+pmax = 0.705743
+p0 = 2.05743e+30
+pc = 0.5
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (184.642, 31.4074, 24.5059)
+Endpoint position: (146.986, 56.8817, 113.104)
+Hypothosis: 0
+ymax 56.8817
+ ^^ Pfo = 0x65c6900
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 4
+total = 8
+ERROR: PFO is tiny!
+Skipping...
+ ^^ Pfo = 0x65c5e30
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 210
+total = 553
+start: PerformFits
+fit status: -1  :  -1
+time: 65.5434
+start: PerformFits
+fit status: -1  :  -1
+time: 66.8045
+start: PerformFits
+fit status: -1  :  -1
+time: 65.572
+directionFitObject.GetMinChiSquaredPerHit() 1.20246  GetForwardsChiSquaredPerHit()2.38821  GetBackwardsChiSquaredPerHit()   1.20246         directionFitObject.GetNHits()  157
+Applied Hypothesis #1 (Single Clean Particle)
+returned
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (139.683, -109.873, 2.78852)
+Endpoint position: (169.154, -39.473, 71.1162)
+Hypothosis: 1
+ymax -39.473
+ ^^ Pfo = 0x6419710
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 243
+total = 500
+start: PerformFits
+fit status: -1  :  -1
+time: 44.5999
+start: PerformFits
+fit status: -1  :  -1
+time: 45.4832
+start: PerformFits
+fit status: -1  :  -1
+time: 45.6082
+directionFitObject.GetMinChiSquaredPerHit() 6.88416  GetForwardsChiSquaredPerHit()6.88416  GetBackwardsChiSquaredPerHit()   29.2902         directionFitObject.GetNHits()  173
+Not hypothosis one
+start: PerformFits
+fit status: -1  :  -1
+time: 45.3985
+start: PerformFits
+fit status: -1  :  -1
+time: 2150.78
+start: PerformFits
+fit status: -1  :  -1
+time: 47.9414
+start: PerformFits
+fit status: -1  :  -1
+time: 66.9534
+start: PerformFits
+fit status: -1  :  -1
+time: 31.5458
+start: PerformFits
+fit status: -1  :  -1
+time: 45.425
+start: PerformFits
+fit status: -1  :  -1
+time: 17.6069
+start: PerformFits
+fit status: -1  :  -1
+time: 46.4304
+start: PerformFits
+fit status: -1  :  -1
+time: 6.90201
+start: PerformFits
+fit status: -1  :  -1
+time: 48.3599
+Not hypothosis two
+deltaChiSquaredPerHit  -22.4061
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 173
+fitResult.GetMinChiSquaredPerHit() 6.88416
+alpha = 1e-33
+pmax = 0.705743
+p0 = 2.05743e+30
+pc = 0.5
+deltaChiSquaredPerHit  -22.4061
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 173
+fitResult.GetMinChiSquaredPerHit() 6.88416
+alpha = 1e-33
+pmax = 0.705743
+p0 = 2.05743e+30
+pc = 0.5
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (184.598, 31.1831, 24.5056)
+Endpoint position: (146.986, 56.8816, 113.104)
+Hypothosis: 0
+ymax 56.8816
+ ^^ Pfo = 0x661dec0
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 111
+total = 538
+start: PerformFits
+fit status: -1  :  -1
+time: 94.6899
+start: PerformFits
+fit status: -1  :  -1
+time: 92.731
+start: PerformFits
+fit status: -1  :  -1
+time: 93.2621
+directionFitObject.GetMinChiSquaredPerHit() 1.09543  GetForwardsChiSquaredPerHit()1.78262  GetBackwardsChiSquaredPerHit()   1.09543         directionFitObject.GetNHits()  83
+Applied Hypothesis #1 (Single Clean Particle)
+returned
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (184.685, 31.4588, 25.0432)
+Endpoint position: (255.43, 104.859, 62.568)
+Hypothosis: 1
+ymax 104.859
+ ^^ Pfo = 0x65be0c0
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 6
+total = 19
+ERROR: PFO is tiny!
+Skipping...
+ ^^ Pfo = 0x65c1930
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 6
+total = 16
+ERROR: PFO is tiny!
+Skipping...
+ ^^ Pfo = 0x663c750
+------------------Done Running over Slices---------------------
+slice size neutrino Id 2
+2 <----- nuSliceHypotheses.size() (nSlices)
+-1-1
+-1-1
+-----------------start of new slice loop---------------------------------
+nuProbability : 0.00866029
+Cosmic: Pfo : 0x6419710
+Found 0x6419710 0.5
+Neutrino: Pfo : 0x641e860
+Neutrino: Pfo Id : 14
+Neutrino: Hits : 0
+Daughter: Pfo : 0x63cb060
+Daughter: Pfo Id : 13
+Daughter: Hits : 0
+Found 0x63cb060 0.5
+downprobcr size = 1
+downprobnu size = 1
+ --- 
+ minprobcr 0.5
+ maxprobcr 0.5
+ --- 
+ minprobnu 0.5
+ maxprobnu 0.5
+ ------- 
+-----------------start of new slice loop---------------------------------
+nuProbability : 0.967641
+Cosmic: Pfo : 0x661dec0
+Found 0x661dec0 0.5
+Cosmic: Pfo : 0x65be0c0
+Found 0x65be0c0 0.5
+Cosmic: Pfo : 0x65c1930
+Found 0x65c1930 -1
+Cosmic: Pfo : 0x663c750
+Found 0x663c750 -1
+Neutrino: Pfo : 0x659ac20
+Neutrino: Pfo Id : 14
+Neutrino: Hits : 0
+Daughter: Pfo : 0x65c6630
+Daughter: Pfo Id : 13
+Daughter: Hits : 0
+Found 0x65c6630 0.5
+Daughter: Pfo : 0x65c6900
+Daughter: Pfo Id : 13
+Daughter: Hits : 0
+Found 0x65c6900 0.5
+Daughter: Pfo : 0x65c5e30
+Daughter: Pfo Id : 13
+Daughter: Hits : 0
+Found 0x65c5e30 -1
+downprobcr size = 2
+downprobnu size = 2
+ --- 
+ minprobcr 0.5
+ maxprobcr 0.5
+ --- 
+ minprobnu 0.5
+ maxprobnu 0.5
+ ------- 
+m_maxNeutrinos 1
+Calling this a neutrino!  1
+Calling this a cosmic!
+2  2  2  9  2
+nu hits in mc 1051
+Selected? 0
+total hits in slice 699
+nu hits in slice 51
+shared hits: 0
+completeness = 0
+purity = 0
+isSelectedAsNu = 0
+-----------------------------------
+Selected? 1
+total hits in slice 1307
+nu hits in slice 1142
+shared hits: 1049
+completeness = 0.998097
+purity = 0.918564
+isSelectedAsNu = 1
+-----------------------------------
+sum comp = 0.998097
+true = 1
+---INTERPRETED-MATCHING-OUTPUT------------------------------------------------------------------
+CCRES_MU_PIPLUS (Nuance 1003, Nu 1, CR 0)
+IsCorrectNu (NNuMatches: 2) 
+PrimaryId 1, Nu 1, CR 0, MCPDG 13, Energy 0.612228, Dist. 126.234, nMCHits 533 (154, 267, 112)
+-MatchedPfoId 1, Nu 1 [NuId: 1], CR 0, PDG 13, nMatchedHits 533 (154, 267, 112), nPfoHits 540 (155, 273, 112)
+PrimaryId 2, Nu 1, CR 0, MCPDG 211, Energy 0.515315, Dist. 71.0733, nMCHits 501 (39, 222, 240)
+-MatchedPfoId 2, Nu 1 [NuId: 1], CR 0, PDG 13, nMatchedHits 495 (35, 220, 240), nPfoHits 510 (40, 225, 245)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 3, Nu 0, CR 1, MCPDG -13, Energy 2.2135, Dist. 270.212, nMCHits 1616 (774, 548, 294)
+-MatchedPfoId 4, Nu 0, CR 1, PDG 13, nMatchedHits 1616 (774, 548, 294), nPfoHits 1616 (774, 548, 294)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 4, Nu 0, CR 1, MCPDG -13, Energy 1.95528, Dist. 339.938, nMCHits 1605 (705, 268, 632)
+-MatchedPfoId 5, Nu 0, CR 1, PDG 13, nMatchedHits 1604 (704, 268, 632), nPfoHits 1611 (711, 268, 632)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 5, Nu 0, CR 1, MCPDG 13, Energy 0.849029, Dist. 297.515, nMCHits 1579 (377, 771, 431)
+-MatchedPfoId 6, Nu 0, CR 1, PDG 13, nMatchedHits 1579 (377, 771, 431), nPfoHits 1586 (377, 777, 432)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 6, Nu 0, CR 1, MCPDG 13, Energy 1.17449, Dist. 268.019, nMCHits 1436 (697, 303, 436)
+-MatchedPfoId 7, Nu 0, CR 1, PDG 13, nMatchedHits 1436 (697, 303, 436), nPfoHits 1436 (697, 303, 436)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 7, Nu 0, CR 1, MCPDG -13, Energy 28.0834, Dist. 268.554, nMCHits 1374 (665, 518, 191)
+-MatchedPfoId 8, Nu 0, CR 1, PDG 13, nMatchedHits 1374 (665, 518, 191), nPfoHits 1378 (669, 518, 191)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 8, Nu 0, CR 1, MCPDG 13, Energy 7.25597, Dist. 286.548, nMCHits 1340 (452, 640, 248)
+-MatchedPfoId 9, Nu 0, CR 1, PDG 13, nMatchedHits 1247 (415, 584, 248), nPfoHits 1250 (415, 587, 248)
+-(Below threshold) MatchedPfoId 30, Nu 0, CR 1, PDG 13, nMatchedHits 33 (33, 0, 0), nPfoHits 33 (33, 0, 0)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 9, Nu 0, CR 1, MCPDG 13, Energy 6.0561, Dist. 280.203, nMCHits 1259 (364, 350, 545)
+-MatchedPfoId 10, Nu 0, CR 1, PDG 13, nMatchedHits 1217 (332, 344, 541), nPfoHits 1227 (342, 344, 541)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 10, Nu 0, CR 1, MCPDG 13, Energy 1.87673, Dist. 220.34, nMCHits 1202 (319, 578, 305)
+-MatchedPfoId 11, Nu 0, CR 1, PDG 13, nMatchedHits 1196 (319, 572, 305), nPfoHits 1196 (319, 572, 305)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 11, Nu 0, CR 1, MCPDG 13, Energy 2.72891, Dist. 276.49, nMCHits 1182 (421, 518, 243)
+-MatchedPfoId 12, Nu 0, CR 1, PDG 13, nMatchedHits 1178 (420, 518, 240), nPfoHits 1185 (424, 521, 240)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 12, Nu 0, CR 1, MCPDG -13, Energy 3.0079, Dist. 270.6, nMCHits 1082 (286, 642, 154)
+-MatchedPfoId 13, Nu 0, CR 1, PDG 13, nMatchedHits 1080 (286, 642, 152), nPfoHits 1085 (286, 647, 152)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 13, Nu 0, CR 1, MCPDG -13, Energy 10.4026, Dist. 288.762, nMCHits 1033 (316, 501, 216)
+-MatchedPfoId 14, Nu 0, CR 1, PDG 13, nMatchedHits 1031 (316, 499, 216), nPfoHits 1032 (316, 500, 216)
+-(Below threshold) MatchedPfoId 31, Nu 0, CR 1, PDG 13, nMatchedHits 2 (0, 2, 0), nPfoHits 2 (0, 2, 0)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 14, Nu 0, CR 1, MCPDG 13, Energy 0.759258, Dist. 270.693, nMCHits 1026 (320, 516, 190)
+-MatchedPfoId 16, Nu 0, CR 1, PDG 13, nMatchedHits 1026 (320, 516, 190), nPfoHits 1026 (320, 516, 190)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 15, Nu 0, CR 1, MCPDG -13, Energy 9.08985, Dist. 179.91, nMCHits 806 (198, 413, 195)
+-MatchedPfoId 17, Nu 0, CR 1, PDG 13, nMatchedHits 802 (198, 409, 195), nPfoHits 802 (198, 409, 195)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 16, Nu 0, CR 1, MCPDG -13, Energy 2.42586, Dist. 186.079, nMCHits 760 (272, 207, 281)
+-MatchedPfoId 15, Nu 0, CR 1, PDG 13, nMatchedHits 758 (270, 207, 281), nPfoHits 1029 (382, 366, 281)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 17, Nu 0, CR 1, MCPDG 13, Energy 11.6823, Dist. 271.847, nMCHits 685 (201, 182, 302)
+-MatchedPfoId 18, Nu 0, CR 1, PDG 13, nMatchedHits 680 (200, 178, 302), nPfoHits 684 (201, 178, 305)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 18, Nu 0, CR 1, MCPDG -13, Energy 0.501527, Dist. 120.013, nMCHits 554 (29, 315, 210)
+-MatchedPfoId 19, Nu 0, CR 1, PDG 13, nMatchedHits 554 (29, 315, 210), nPfoHits 554 (29, 315, 210)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 19, Nu 0, CR 1, MCPDG -13, Energy 9.35882, Dist. 76.6637, nMCHits 448 (132, 131, 185)
+-MatchedPfoId 20, Nu 0, CR 1, PDG 13, nMatchedHits 437 (124, 128, 185), nPfoHits 437 (124, 128, 185)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 20, Nu 0, CR 1, MCPDG -13, Energy 0.659913, Dist. 137.102, nMCHits 429 (112, 188, 129)
+-MatchedPfoId 22, Nu 0, CR 1, PDG 13, nMatchedHits 317 (0, 188, 129), nPfoHits 317 (0, 188, 129)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 21, Nu 0, CR 1, MCPDG -13, Energy 3.18192, Dist. 104.085, nMCHits 399 (171, 153, 75)
+-MatchedPfoId 21, Nu 0, CR 1, PDG 13, nMatchedHits 399 (171, 153, 75), nPfoHits 399 (171, 153, 75)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsLost (NNuLosses: 1) 
+PrimaryId 22, Nu 0, CR 1, MCPDG 13, Energy 0.36744, Dist. 92.1172, nMCHits 375 (208, 167, 0)
+-No matched Pfo
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 23, Nu 0, CR 1, MCPDG -13, Energy 3.95193, Dist. 82.7075, nMCHits 297 (136, 116, 45)
+-MatchedPfoId 23, Nu 0, CR 1, PDG 13, nMatchedHits 294 (136, 114, 44), nPfoHits 294 (136, 114, 44)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 24, Nu 0, CR 1, MCPDG 13, Energy 4.35214, Dist. 264.63, nMCHits 287 (83, 167, 37)
+-MatchedPfoId 24, Nu 0, CR 1, PDG 13, nMatchedHits 269 (77, 155, 37), nPfoHits 273 (77, 155, 41)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 25, Nu 0, CR 1, MCPDG -13, Energy 0.596488, Dist. 113.637, nMCHits 251 (55, 131, 65)
+-MatchedPfoId 25, Nu 0, CR 1, PDG 13, nMatchedHits 251 (55, 131, 65), nPfoHits 251 (55, 131, 65)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 26, Nu 0, CR 1, MCPDG 13, Energy 2.09903, Dist. 279.309, nMCHits 175 (84, 57, 34)
+-MatchedPfoId 26, Nu 0, CR 1, PDG 13, nMatchedHits 175 (84, 57, 34), nPfoHits 175 (84, 57, 34)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 27, Nu 0, CR 1, MCPDG -13, Energy 1.25311, Dist. 78.7832, nMCHits 164 (33, 113, 18)
+-MatchedPfoId 27, Nu 0, CR 1, PDG 13, nMatchedHits 160 (29, 113, 18), nPfoHits 160 (29, 113, 18)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 28, Nu 0, CR 1, MCPDG -13, Energy 2.89936, Dist. 182.6, nMCHits 158 (38, 85, 35)
+-MatchedPfoId 28, Nu 0, CR 1, PDG 13, nMatchedHits 158 (38, 85, 35), nPfoHits 158 (38, 85, 35)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 29, Nu 0, CR 1, MCPDG -13, Energy 0.274507, Dist. 55.1954, nMCHits 80 (4, 64, 12)
+-MatchedPfoId 29, Nu 0, CR 1, PDG 13, nMatchedHits 79 (3, 64, 12), nPfoHits 79 (3, 64, 12)
+
+---SUMMARY--------------------------------------------------------------------------------------
+#CorrectNu: 1/1, Fraction: 1
+#CorrectCR: 26/27, Fraction: 0.962963
+#Lost: 1 
+------------------------------------------------------------------------------------------------
+
+     
+CLEAR FINAL STATE? 1
+total = 12
+total W = 2
+cluster size = 3
+length = 0.3
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 2
+cluster size = 3
+length = 0.301391
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 9
+total W = 3
+cluster size = 3
+length = 0.601595
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 2
+cluster size = 3
+length = 0.300084
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 3
+cluster size = 3
+length = 0.602087
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 3
+length = 0.300174
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 581
+total W = 245
+cluster size = 4
+length = 80.6944
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 1188
+total W = 602
+cluster size = 4
+length = 197.328
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 2716
+total W = 1349
+cluster size = 4
+length = 435.929
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 284
+total W = 74
+cluster size = 4
+length = 53.6677
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 922
+total W = 342
+cluster size = 4
+length = 113.782
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 50
+total W = 16
+cluster size = 4
+length = 5.10006
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 77
+total W = 32
+cluster size = 4
+length = 8.41908
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 57
+total W = 25
+cluster size = 4
+length = 8.09345
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 79
+total W = 33
+cluster size = 4
+length = 9.14669
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 76
+total W = 0
+cluster size = 3
+length = 14.2218
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 252
+total W = 115
+cluster size = 3
+length = 54.5317
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 22
+total W = 8
+cluster size = 4
+length = 1.66809
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 28
+total W = 9
+cluster size = 4
+length = 2.40977
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 17
+total W = 5
+cluster size = 4
+length = 1.20561
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 21
+total W = 9
+cluster size = 4
+length = 2.5501
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 24
+total W = 10
+cluster size = 4
+length = 4.74318
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300254
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300144
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.301388
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.30015
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300065
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.302216
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.302783
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.301437
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300233
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.301336
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300115
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300273
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300813
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.309952
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 3
+cluster size = 4
+length = 0.603207
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 3
+cluster size = 4
+length = 0.601294
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300054
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 2
+cluster size = 4
+length = 0.301289
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 9
+total W = 4
+cluster size = 4
+length = 0.914543
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 12
+total W = 3
+cluster size = 4
+length = 0.600477
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 14
+total W = 3
+cluster size = 4
+length = 0.958478
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 11
+total W = 3
+cluster size = 4
+length = 0.607672
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 15
+total W = 4
+cluster size = 4
+length = 1.37484
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 3
+cluster size = 4
+length = 0.601969
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.301427
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 9
+total W = 3
+cluster size = 4
+length = 0.600109
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.302754
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 11
+total W = 4
+cluster size = 4
+length = 0.911069
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.334417
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 13
+total W = 4
+cluster size = 4
+length = 1.04743
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 11
+total W = 4
+cluster size = 4
+length = 0.949862
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 13
+total W = 3
+cluster size = 4
+length = 0.637362
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 13
+total W = 5
+cluster size = 4
+length = 1.30487
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 13
+total W = 4
+cluster size = 4
+length = 0.940869
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 24
+total W = 4
+cluster size = 4
+length = 1.37701
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 12
+total W = 3
+cluster size = 4
+length = 0.610161
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 14
+total W = 5
+cluster size = 4
+length = 1.23036
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.304385
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300281
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 25
+total W = 5
+cluster size = 4
+length = 1.20671
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 18
+total W = 7
+cluster size = 4
+length = 1.70788
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 13
+total W = 6
+cluster size = 4
+length = 3.83705
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 10
+total W = 5
+cluster size = 4
+length = 2.70427
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 11
+total W = 3
+cluster size = 4
+length = 0.717041
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 535
+total W = 168
+cluster size = 4
+length = 22.7398
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 324
+total W = 109
+cluster size = 4
+length = 26.2796
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 39
+total W = 25
+cluster size = 4
+length = 7.17783
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 14
+total W = 4
+cluster size = 4
+length = 0.902621
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 3
+cluster size = 4
+length = 0.988502
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300121
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.321222
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 10
+total W = 3
+cluster size = 4
+length = 0.637311
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 12
+total W = 3
+cluster size = 4
+length = 0.618073
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 18
+total W = 2
+cluster size = 4
+length = 0.299989
+final directioncosmic : 1
+down probability : -3
+     
+CLEAR FINAL STATE? 1
+total = 17
+total W = 12
+cluster size = 4
+length = 5.58619
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 205
+total W = 25
+cluster size = 4
+length = 6.86689
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 12
+total W = 2
+cluster size = 4
+length = 0.300885
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 89
+total W = 9
+cluster size = 4
+length = 3.89734
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 22
+total W = 3
+cluster size = 4
+length = 0.634431
+final directioncosmic : 1
+down probability : -3
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.300843
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 14
+total W = 0
+cluster size = 3
+length = 2.22176
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 32
+total W = 17
+cluster size = 3
+length = 6.87973
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 12
+total W = 6
+cluster size = 3
+length = 2.37746
+final directioncosmic : 1
+down probability : -2
+Failure in algorithm Alg0003, LArMaster, STATUS_CODE_ALREADY_PRESENT
+---INTERPRETED-MATCHING-OUTPUT------------------------------------------------------------------
+CCQEL_MU (Nuance 1001, Nu 1, CR 0)
+IsFakeCR (NCRMatches: 1) 
+PrimaryId 1, Nu 1, CR 0, MCPDG 13, Energy 1.56888, Dist. 201.667, nMCHits 1234 (281, 331, 622)
+-MatchedPfoId 11, Nu 0, CR 1, PDG 13, nMatchedHits 1215 (280, 331, 604), nPfoHits 1215 (280, 331, 604)
+-(Below threshold) MatchedPfoId 55, Nu 0, CR 1, PDG 13, nMatchedHits 18 (0, 0, 18), nPfoHits 18 (0, 0, 18)
+
+COSMIC_RAY_PHOTON (Nuance 0, Nu 0, CR 1)
+IsSplitCR (NCRMatches: 2) 
+PrimaryId 2, Nu 0, CR 1, MCPDG 22, Energy 2.6656, Dist. 0, nMCHits 3007 (948, 1251, 808)
+-MatchedPfoId 21, Nu 0, CR 1, PDG 13, nMatchedHits 529 (273, 85, 171), nPfoHits 552 (273, 108, 171)
+-MatchedPfoId 28, Nu 0, CR 1, PDG 13, nMatchedHits 342 (128, 98, 116), nPfoHits 343 (129, 98, 116)
+-(Below threshold) MatchedPfoId 31, Nu 0, CR 1, PDG 13, nMatchedHits 262 (34, 105, 123), nPfoHits 264 (34, 107, 123)
+-(Below threshold) MatchedPfoId 33, Nu 0, CR 1, PDG 13, nMatchedHits 208 (125, 58, 25), nPfoHits 208 (125, 58, 25)
+-(Below threshold) MatchedPfoId 36, Nu 0, CR 1, PDG 13, nMatchedHits 115 (14, 64, 37), nPfoHits 115 (14, 64, 37)
+-(Below threshold) MatchedPfoId 38, Nu 0, CR 1, PDG 13, nMatchedHits 90 (13, 68, 9), nPfoHits 90 (13, 68, 9)
+-(Below threshold) MatchedPfoId 39, Nu 0, CR 1, PDG 13, nMatchedHits 85 (27, 26, 32), nPfoHits 85 (27, 26, 32)
+-(Below threshold) MatchedPfoId 43, Nu 0, CR 1, PDG 13, nMatchedHits 59 (13, 28, 18), nPfoHits 59 (13, 28, 18)
+-(Below threshold) MatchedPfoId 47, Nu 0, CR 1, PDG 13, nMatchedHits 26 (5, 16, 5), nPfoHits 26 (5, 16, 5)
+-(Below threshold) MatchedPfoId 50, Nu 0, CR 1, PDG 13, nMatchedHits 25 (7, 7, 11), nPfoHits 25 (7, 7, 11)
+-(Below threshold) MatchedPfoId 51, Nu 0, CR 1, PDG 13, nMatchedHits 25 (14, 11, 0), nPfoHits 25 (14, 11, 0)
+-(Below threshold) MatchedPfoId 52, Nu 0, CR 1, PDG 13, nMatchedHits 22 (5, 2, 15), nPfoHits 22 (5, 2, 15)
+-(Below threshold) MatchedPfoId 53, Nu 0, CR 1, PDG 13, nMatchedHits 22 (5, 14, 3), nPfoHits 22 (5, 14, 3)
+-(Below threshold) MatchedPfoId 54, Nu 0, CR 1, PDG 13, nMatchedHits 21 (5, 7, 9), nPfoHits 21 (5, 7, 9)
+-(Below threshold) MatchedPfoId 60, Nu 0, CR 1, PDG 13, nMatchedHits 14 (4, 8, 2), nPfoHits 14 (4, 8, 2)
+-(Below threshold) MatchedPfoId 63, Nu 0, CR 1, PDG 13, nMatchedHits 12 (3, 4, 5), nPfoHits 12 (3, 4, 5)
+-(Below threshold) MatchedPfoId 69, Nu 0, CR 1, PDG 13, nMatchedHits 9 (2, 3, 4), nPfoHits 9 (2, 3, 4)
+-(Below threshold) MatchedPfoId 70, Nu 0, CR 1, PDG 11, nMatchedHits 9 (4, 2, 3), nPfoHits 9 (4, 2, 3)
+-(Below threshold) MatchedPfoId 73, Nu 0, CR 1, PDG 13, nMatchedHits 7 (3, 2, 2), nPfoHits 7 (3, 2, 2)
+-(Below threshold) MatchedPfoId 72, Nu 0, CR 1, PDG 13, nMatchedHits 7 (2, 3, 2), nPfoHits 8 (3, 3, 2)
+-(Below threshold) MatchedPfoId 75, Nu 0, CR 1, PDG 13, nMatchedHits 6 (2, 2, 2), nPfoHits 6 (2, 2, 2)
+-(Below threshold) MatchedPfoId 68, Nu 0, CR 1, PDG 11, nMatchedHits 5 (0, 2, 3), nPfoHits 9 (4, 2, 3)
+-(Below threshold) MatchedPfoId 74, Nu 0, CR 1, PDG 13, nMatchedHits 2 (0, 2, 0), nPfoHits 6 (2, 2, 2)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 3, Nu 0, CR 1, MCPDG -13, Energy 27.7527, Dist. 532.081, nMCHits 2853 (192, 1252, 1409)
+-MatchedPfoId 1, Nu 0, CR 1, PDG 13, nMatchedHits 2840 (185, 1246, 1409), nPfoHits 3564 (192, 1794, 1578)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 4, Nu 0, CR 1, MCPDG -13, Energy 8.39916, Dist. 336.982, nMCHits 1837 (305, 885, 647)
+-MatchedPfoId 2, Nu 0, CR 1, PDG 13, nMatchedHits 1837 (305, 885, 647), nPfoHits 1863 (305, 904, 654)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 5, Nu 0, CR 1, MCPDG 13, Energy 7.42628, Dist. 307.278, nMCHits 1703 (762, 468, 473)
+-MatchedPfoId 3, Nu 0, CR 1, PDG 13, nMatchedHits 1682 (753, 461, 468), nPfoHits 1751 (800, 471, 480)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 6, Nu 0, CR 1, MCPDG 13, Energy 2.67697, Dist. 281.137, nMCHits 1670 (470, 842, 358)
+-MatchedPfoId 5, Nu 0, CR 1, PDG 13, nMatchedHits 1670 (470, 842, 358), nPfoHits 1670 (470, 842, 358)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 7, Nu 0, CR 1, MCPDG 13, Energy 0.892457, Dist. 328.814, nMCHits 1626 (580, 593, 453)
+-MatchedPfoId 4, Nu 0, CR 1, PDG 13, nMatchedHits 1577 (549, 587, 441), nPfoHits 1733 (551, 619, 563)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 8, Nu 0, CR 1, MCPDG -13, Energy 6.50587, Dist. 265.843, nMCHits 1597 (573, 772, 252)
+-MatchedPfoId 6, Nu 0, CR 1, PDG 13, nMatchedHits 1597 (573, 772, 252), nPfoHits 1639 (578, 809, 252)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 9, Nu 0, CR 1, MCPDG 13, Energy 1.89308, Dist. 324.167, nMCHits 1592 (703, 341, 548)
+-MatchedPfoId 7, Nu 0, CR 1, PDG 13, nMatchedHits 1592 (703, 341, 548), nPfoHits 1605 (712, 343, 550)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 10, Nu 0, CR 1, MCPDG -13, Energy 1.63705, Dist. 300.989, nMCHits 1508 (464, 714, 330)
+-MatchedPfoId 8, Nu 0, CR 1, PDG 13, nMatchedHits 1504 (462, 712, 330), nPfoHits 1514 (462, 722, 330)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 11, Nu 0, CR 1, MCPDG 13, Energy 2.78257, Dist. 276.63, nMCHits 1426 (433, 708, 285)
+-MatchedPfoId 9, Nu 0, CR 1, PDG 13, nMatchedHits 1426 (433, 708, 285), nPfoHits 1426 (433, 708, 285)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 12, Nu 0, CR 1, MCPDG -13, Energy 12.8512, Dist. 270.252, nMCHits 1392 (500, 645, 247)
+-MatchedPfoId 10, Nu 0, CR 1, PDG 13, nMatchedHits 1383 (495, 641, 247), nPfoHits 1408 (520, 641, 247)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 13, Nu 0, CR 1, MCPDG -13, Energy 5.87092, Dist. 271.294, nMCHits 1178 (320, 712, 146)
+-MatchedPfoId 12, Nu 0, CR 1, PDG 13, nMatchedHits 1172 (314, 712, 146), nPfoHits 1178 (314, 718, 146)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 14, Nu 0, CR 1, MCPDG 13, Energy 2.80243, Dist. 322.312, nMCHits 1064 (303, 388, 373)
+-MatchedPfoId 13, Nu 0, CR 1, PDG 13, nMatchedHits 1045 (298, 382, 365), nPfoHits 1146 (361, 406, 379)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 15, Nu 0, CR 1, MCPDG -13, Energy 10.8157, Dist. 188.627, nMCHits 999 (380, 545, 74)
+-MatchedPfoId 14, Nu 0, CR 1, PDG 13, nMatchedHits 999 (380, 545, 74), nPfoHits 999 (380, 545, 74)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 16, Nu 0, CR 1, MCPDG -13, Energy 0.530667, Dist. 178.133, nMCHits 937 (100, 491, 346)
+-MatchedPfoId 15, Nu 0, CR 1, PDG 13, nMatchedHits 931 (99, 486, 346), nPfoHits 946 (99, 501, 346)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 17, Nu 0, CR 1, MCPDG -13, Energy 6.48651, Dist. 228.377, nMCHits 826 (410, 340, 76)
+-MatchedPfoId 16, Nu 0, CR 1, PDG 13, nMatchedHits 808 (397, 337, 74), nPfoHits 814 (403, 337, 74)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 18, Nu 0, CR 1, MCPDG 13, Energy 3.39169, Dist. 157.582, nMCHits 778 (393, 187, 198)
+-MatchedPfoId 17, Nu 0, CR 1, PDG 13, nMatchedHits 775 (393, 187, 195), nPfoHits 785 (403, 187, 195)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 19, Nu 0, CR 1, MCPDG -13, Energy 2.81493, Dist. 148.297, nMCHits 756 (134, 381, 241)
+-MatchedPfoId 18, Nu 0, CR 1, PDG 13, nMatchedHits 756 (134, 381, 241), nPfoHits 756 (134, 381, 241)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 20, Nu 0, CR 1, MCPDG -13, Energy 1.49571, Dist. 179.18, nMCHits 739 (168, 390, 181)
+-MatchedPfoId 19, Nu 0, CR 1, PDG 13, nMatchedHits 733 (168, 384, 181), nPfoHits 733 (168, 384, 181)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 21, Nu 0, CR 1, MCPDG 13, Energy 36.9165, Dist. 124.682, nMCHits 588 (86, 253, 249)
+-MatchedPfoId 20, Nu 0, CR 1, PDG 13, nMatchedHits 584 (86, 249, 249), nPfoHits 584 (86, 249, 249)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 22, Nu 0, CR 1, MCPDG -13, Energy 5.27869, Dist. 125.995, nMCHits 535 (228, 192, 115)
+-MatchedPfoId 22, Nu 0, CR 1, PDG 13, nMatchedHits 535 (228, 192, 115), nPfoHits 535 (228, 192, 115)
+
+COSMIC_RAY_E (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 23, Nu 0, CR 1, MCPDG 11, Energy 0.909564, Dist. 0, nMCHits 535 (189, 194, 152)
+-MatchedPfoId 32, Nu 0, CR 1, PDG 13, nMatchedHits 160 (74, 86, 0), nPfoHits 231 (102, 129, 0)
+-(Below threshold) MatchedPfoId 44, Nu 0, CR 1, PDG 13, nMatchedHits 37 (8, 6, 23), nPfoHits 39 (8, 6, 25)
+-(Below threshold) MatchedPfoId 48, Nu 0, CR 1, PDG 13, nMatchedHits 25 (4, 16, 5), nPfoHits 25 (4, 16, 5)
+-(Below threshold) MatchedPfoId 49, Nu 0, CR 1, PDG 13, nMatchedHits 25 (10, 10, 5), nPfoHits 25 (10, 10, 5)
+-(Below threshold) MatchedPfoId 59, Nu 0, CR 1, PDG 13, nMatchedHits 15 (5, 2, 8), nPfoHits 15 (5, 2, 8)
+-(Below threshold) MatchedPfoId 61, Nu 0, CR 1, PDG 11, nMatchedHits 13 (9, 2, 2), nPfoHits 13 (9, 2, 2)
+-(Below threshold) MatchedPfoId 66, Nu 0, CR 1, PDG 13, nMatchedHits 11 (5, 3, 3), nPfoHits 11 (5, 3, 3)
+-(Below threshold) MatchedPfoId 65, Nu 0, CR 1, PDG 13, nMatchedHits 10 (0, 10, 0), nPfoHits 11 (0, 11, 0)
+-(Below threshold) MatchedPfoId 67, Nu 0, CR 1, PDG 11, nMatchedHits 10 (5, 2, 3), nPfoHits 10 (5, 2, 3)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsSplitCR (NCRMatches: 2) 
+PrimaryId 24, Nu 0, CR 1, MCPDG -13, Energy 0.624789, Dist. 212.237, nMCHits 508 (105, 231, 172)
+-MatchedPfoId 24, Nu 0, CR 1, PDG 13, nMatchedHits 430 (76, 213, 141), nPfoHits 430 (76, 213, 141)
+-MatchedPfoId 40, Nu 0, CR 1, PDG 13, nMatchedHits 75 (29, 15, 31), nPfoHits 75 (29, 15, 31)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 25, Nu 0, CR 1, MCPDG -13, Energy 15.8788, Dist. 122.241, nMCHits 452 (230, 195, 27)
+-MatchedPfoId 23, Nu 0, CR 1, PDG 13, nMatchedHits 442 (220, 195, 27), nPfoHits 445 (220, 198, 27)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 26, Nu 0, CR 1, MCPDG -13, Energy 1.63156, Dist. 270.926, nMCHits 421 (89, 278, 54)
+-MatchedPfoId 25, Nu 0, CR 1, PDG 13, nMatchedHits 421 (89, 278, 54), nPfoHits 421 (89, 278, 54)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 27, Nu 0, CR 1, MCPDG -13, Energy 13.1638, Dist. 122.861, nMCHits 401 (100, 281, 20)
+-MatchedPfoId 26, Nu 0, CR 1, PDG 13, nMatchedHits 401 (100, 281, 20), nPfoHits 401 (100, 281, 20)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 28, Nu 0, CR 1, MCPDG 13, Energy 0.587316, Dist. 165.118, nMCHits 398 (54, 243, 101)
+-MatchedPfoId 27, Nu 0, CR 1, PDG 13, nMatchedHits 387 (53, 233, 101), nPfoHits 387 (53, 233, 101)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 29, Nu 0, CR 1, MCPDG 13, Energy 2.85597, Dist. 106.094, nMCHits 342 (146, 162, 34)
+-MatchedPfoId 29, Nu 0, CR 1, PDG 13, nMatchedHits 342 (146, 162, 34), nPfoHits 342 (146, 162, 34)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 30, Nu 0, CR 1, MCPDG 13, Energy 132.891, Dist. 89.1913, nMCHits 320 (160, 83, 77)
+-MatchedPfoId 30, Nu 0, CR 1, PDG 13, nMatchedHits 298 (160, 62, 76), nPfoHits 317 (167, 74, 76)
+
+COSMIC_RAY_E (Nuance 0, Nu 0, CR 1)
+IsLost (NNuLosses: 1) 
+PrimaryId 31, Nu 0, CR 1, MCPDG -11, Energy 0.475801, Dist. 0, nMCHits 162 (54, 59, 49)
+-No matched Pfo
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 32, Nu 0, CR 1, MCPDG -13, Energy 5.9455, Dist. 74.2274, nMCHits 152 (76, 13, 63)
+-MatchedPfoId 34, Nu 0, CR 1, PDG 13, nMatchedHits 149 (76, 13, 60), nPfoHits 149 (76, 13, 60)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 33, Nu 0, CR 1, MCPDG 13, Energy 1.88614, Dist. 44.6103, nMCHits 139 (58, 58, 23)
+-MatchedPfoId 35, Nu 0, CR 1, PDG 13, nMatchedHits 139 (58, 58, 23), nPfoHits 141 (58, 60, 23)
+
+COSMIC_RAY_OTHER (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 34, Nu 0, CR 1, MCPDG -211, Energy 0.920608, Dist. 0, nMCHits 108 (27, 60, 21)
+-MatchedPfoId 37, Nu 0, CR 1, PDG 13, nMatchedHits 87 (27, 60, 0), nPfoHits 90 (30, 60, 0)
+
+COSMIC_RAY_PHOTON (Nuance 0, Nu 0, CR 1)
+IsSplitCR (NCRMatches: 5) 
+PrimaryId 35, Nu 0, CR 1, MCPDG 22, Energy 0.0542857, Dist. 6.62336, nMCHits 79 (31, 26, 22)
+-MatchedPfoId 57, Nu 0, CR 1, PDG 13, nMatchedHits 15 (6, 4, 5), nPfoHits 15 (6, 4, 5)
+-MatchedPfoId 58, Nu 0, CR 1, PDG 13, nMatchedHits 14 (6, 4, 4), nPfoHits 15 (6, 4, 5)
+-MatchedPfoId 62, Nu 0, CR 1, PDG 13, nMatchedHits 13 (6, 3, 4), nPfoHits 13 (6, 3, 4)
+-MatchedPfoId 71, Nu 0, CR 1, PDG 13, nMatchedHits 8 (3, 3, 2), nPfoHits 8 (3, 3, 2)
+-MatchedPfoId 64, Nu 0, CR 1, PDG 13, nMatchedHits 8 (4, 2, 2), nPfoHits 12 (6, 4, 2)
+-(Below threshold) MatchedPfoId 76, Nu 0, CR 1, PDG 13, nMatchedHits 1 (0, 1, 0), nPfoHits 1 (0, 1, 0)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 36, Nu 0, CR 1, MCPDG 13, Energy 1.03131, Dist. 315.156, nMCHits 68 (29, 21, 18)
+-MatchedPfoId 41, Nu 0, CR 1, PDG 13, nMatchedHits 68 (29, 21, 18), nPfoHits 68 (29, 21, 18)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 37, Nu 0, CR 1, MCPDG -13, Energy 4.13486, Dist. 53.1479, nMCHits 67 (28, 26, 13)
+-MatchedPfoId 42, Nu 0, CR 1, PDG 13, nMatchedHits 67 (28, 26, 13), nPfoHits 67 (28, 26, 13)
+
+COSMIC_RAY_E (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 38, Nu 0, CR 1, MCPDG -11, Energy 0.134902, Dist. 0, nMCHits 51 (19, 14, 18)
+-MatchedPfoId 45, Nu 0, CR 1, PDG 13, nMatchedHits 39 (17, 9, 13), nPfoHits 39 (17, 9, 13)
+
+COSMIC_RAY_MU (Nuance 0, Nu 0, CR 1)
+IsLost (NNuLosses: 1) 
+PrimaryId 39, Nu 0, CR 1, MCPDG -13, Energy 33.6469, Dist. 361.514, nMCHits 43 (6, 17, 20)
+-No matched Pfo
+
+COSMIC_RAY_PHOTON (Nuance 0, Nu 0, CR 1)
+IsCorrectCR (NCRMatches: 1) 
+PrimaryId 40, Nu 0, CR 1, MCPDG 22, Energy 0.0183492, Dist. 19.5144, nMCHits 25 (6, 8, 11)
+-MatchedPfoId 46, Nu 0, CR 1, PDG 13, nMatchedHits 25 (6, 8, 11), nPfoHits 26 (6, 8, 12)
+
+---SUMMARY--------------------------------------------------------------------------------------
+#CorrectNu: 0/1, Fraction: 0
+#CorrectCR: 34/39, Fraction: 0.871795
+#FakeCR: 1 #SplitCR: 3 #Lost: 2 
+------------------------------------------------------------------------------------------------
+
+     
+CLEAR FINAL STATE? 1
+total = 655
+total W = 242
+cluster size = 4
+length = 99.8846
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 783
+total W = 81
+cluster size = 4
+length = 37.3765
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 920
+total W = 328
+cluster size = 4
+length = 141.732
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 457
+total W = 0
+cluster size = 3
+length = 79.954
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 85
+total W = 47
+cluster size = 3
+length = 17.5801
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 16
+total W = 5
+cluster size = 4
+length = 1.19211
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300287
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300073
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.301144
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300261
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 2
+cluster size = 4
+length = 0.299993
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 10
+total W = 3
+cluster size = 4
+length = 0.600538
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 2
+cluster size = 4
+length = 0.306259
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 3
+cluster size = 4
+length = 0.600829
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 8
+total W = 3
+cluster size = 4
+length = 0.690784
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 12
+total W = 3
+cluster size = 4
+length = 0.6012
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 12
+total W = 4
+cluster size = 4
+length = 0.988188
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 12
+total W = 5
+cluster size = 4
+length = 1.20707
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 7
+total W = 2
+cluster size = 4
+length = 0.302304
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 9
+total W = 3
+cluster size = 4
+length = 0.605924
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 9
+total W = 3
+cluster size = 4
+length = 0.750638
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 17
+total W = 7
+cluster size = 4
+length = 1.8161
+final directioncosmic : 0
+down probability : -1
+     
+CLEAR FINAL STATE? 1
+total = 13
+total W = 5
+cluster size = 4
+length = 1.54023
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 13
+total W = 4
+cluster size = 4
+length = 1.41102
+final directioncosmic : 1
+down probability : -2
+     
+CLEAR FINAL STATE? 1
+total = 6
+total W = 2
+cluster size = 4
+length = 0.300951
+final directioncosmic : 1
+down probability : -2
+|[1m MCParticle [0m|[1m[0m|[1m[0m|[1m Pfo [0m|[1m nSharedHits [0m|
+|[0m ---------- [0m|[0m[0m|[0m[0m|[0m --- [0m|[0m ----------- [0m|
+|[0m[92m          1 [0m|[0m|[0m|[0m[91m   1 [0m|[0m[91m         448 [0m|
+  
+Primary MCParticle 0x7629ca0
+  - PDG : 13
+  - NHits : 448
+  
+Pfo 0x4883f20
+  - PDG : 13
+  - NHits shared total: 448
+  - is final state?: 1
+hits in pfo = 457
+hits in pfo W = 0
+length in W = 79.954
+Purity temp = 448  over  457
+Sig temp = 448  over  448
+Purity = 0.980306
+Sig = 1
+is down? 1
+Clear Neutrino
+hits in pfo = 457
+hits in pfo W = 0
+length in W = 79.954
+potential neutrino
+                                  
+Pfo 0x4411780
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1801
+hits in pfo W = 672
+length in W = 209.046
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1801
+hits in pfo W = 672
+length in W = 209.046
+Tagged as a CR
+                                  
+Pfo 0x6cd7740
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1572
+hits in pfo W = 485
+length in W = 176.519
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1572
+hits in pfo W = 485
+length in W = 176.519
+Tagged as a CR
+                                  
+Pfo 0x64d7580
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1308
+hits in pfo W = 75
+length in W = 33.0864
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1308
+hits in pfo W = 75
+length in W = 33.0864
+Tagged as a CR
+                                  
+Pfo 0x5b10c40
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 1080
+hits in pfo W = 185
+length in W = 131.277
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 1080
+hits in pfo W = 185
+length in W = 131.277
+Tagged as a CR
+                                  
+Pfo 0x501fad0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 920
+hits in pfo W = 328
+length in W = 141.732
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 920
+hits in pfo W = 328
+length in W = 141.732
+potential neutrino
+                                  
+Pfo 0x4e3b300
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 843
+hits in pfo W = 421
+length in W = 131.265
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 843
+hits in pfo W = 421
+length in W = 131.265
+Tagged as a CR
+                                  
+Pfo 0x34326d0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 790
+hits in pfo W = 329
+length in W = 116.136
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 790
+hits in pfo W = 329
+length in W = 116.136
+Tagged as a CR
+                                  
+Pfo 0x80418b0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 783
+hits in pfo W = 81
+length in W = 37.3765
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 783
+hits in pfo W = 81
+length in W = 37.3765
+potential neutrino
+                                  
+Pfo 0x6667d90
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 778
+hits in pfo W = 143
+length in W = 125.544
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 778
+hits in pfo W = 143
+length in W = 125.544
+Tagged as a CR
+                                  
+Pfo 0x4e91920
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 655
+hits in pfo W = 242
+length in W = 99.8846
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 655
+hits in pfo W = 242
+length in W = 99.8846
+potential neutrino
+                                  
+Pfo 0x48443d0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 218
+hits in pfo W = 100
+length in W = 39.2633
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 218
+hits in pfo W = 100
+length in W = 39.2633
+Tagged as a CR
+                                  
+Pfo 0x8051680
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x8b6b1a0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 124
+hits in pfo W = 13
+length in W = 8.22617
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 124
+hits in pfo W = 13
+length in W = 8.22617
+Tagged as a CR
+                                  
+Pfo 0x5cac080
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6c96fd0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 112
+hits in pfo W = 29
+length in W = 13.7772
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 112
+hits in pfo W = 29
+length in W = 13.7772
+Tagged as a CR
+                                  
+Pfo 0x5ca0790
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x488c240
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 85
+hits in pfo W = 47
+length in W = 17.5801
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 85
+hits in pfo W = 47
+length in W = 17.5801
+potential neutrino
+                                  
+Pfo 0x6cde280
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x441ba80
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6ceb3a0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5cb7b10
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6ce1ec0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4e94a80
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5caf1c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4415cb0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6d1f170
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 17
+hits in pfo W = 7
+length in W = 1.8161
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 17
+hits in pfo W = 7
+length in W = 1.8161
+potential neutrino
+                                  
+Pfo 0x5cb12f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4890a80
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 16
+hits in pfo W = 5
+length in W = 1.19211
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 16
+hits in pfo W = 5
+length in W = 1.19211
+potential neutrino
+                                  
+Pfo 0x4e96ce0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6d13d30
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+hits in pfo = 16
+hits in pfo W = 6
+length in W = 1.61388
+Purity = 0
+Sig = 0
+is down? 1
+Clear Cosmic
+hits in pfo = 16
+hits in pfo W = 6
+length in W = 1.61388
+Tagged as a CR
+                                  
+Pfo 0x5b12b70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6ce57f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5cbe0c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6d21880
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x44134f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6d23fb0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x5cbbfd0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6d10b00
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6d0e3b0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x489e2c0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x488db10
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6ce38c0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6d19b30
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x5022550
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5cbfdd0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4e98340
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4898490
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6d1bae0
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6ce6ec0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x441d030
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6d17620
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6cec870
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x666a640
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6669230
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x489c750
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x489b080
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x4899a40
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x5020fa0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4896b70
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x64d8590
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5cb8c70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x48454a0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6d15550
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6cee8a0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x488ea70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x34354f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6ced9d0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4895530
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x4894260
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x4891d50
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x4893020
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x6d25630
+  - PDG : 13
+  - NHits shared total: 0
+  - is final state?: 1
+Pfo 0x5cc0f30
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x64db230
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5cc1fa0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x441ea50
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5cb98f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4e98f90
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x64d90f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x441dd40
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x48461b0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x441f560
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5cc4a30
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5b135f0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4e3bc30
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5b13fe0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x64d9b70
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4e999e0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x3434530
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5b14a60
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6cefec0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x3433ae0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x64da560
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5cc2d50
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x4884910
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x6cef3b0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x5cc3bd0
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+Pfo 0x3433120
+  - PDG : 11
+  - NHits shared total: 0
+  - is final state?: 0
+   
+Tagged clear cosmic = 64.7059%
+clear cosmic identified as neutrino = 35.2941%
+protected clear neutrinos = 100%
+clear neutrino identified as cosmic = 0%
+ daughters 0x4f990d0
+ daughters 0x6b8b800
+ daughters 0x7acfdc0
+ daughters 0x5e587c0
+ daughters 0x6a41980
+crnut 0x4f951c0
+crnut 0x5c1a5e0
+crnut 0x89e3790
+crnut 0x5c17be0
+crnut 0x6563540
+crnut 0x6a481c0
+ size   :   11
+------------------Running over Slices---------------------
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 328
+total = 915
+start: PerformFits
+fit status: -1  :  -1
+time: 58.8006
+start: PerformFits
+fit status: -1  :  -1
+time: 58.6389
+start: PerformFits
+fit status: -1  :  -1
+time: 58.4302
+directionFitObject.GetMinChiSquaredPerHit() 7.26528  GetForwardsChiSquaredPerHit()7.26528  GetBackwardsChiSquaredPerHit()   7.42645         directionFitObject.GetNHits()  245
+Not hypothosis one
+start: PerformFits
+fit status: -1  :  -1
+time: 58.3332
+start: PerformFits
+fit status: -1  :  -1
+time: 320.173
+start: PerformFits
+fit status: -1  :  -1
+time: 59.1892
+start: PerformFits
+fit status: -1  :  -1
+time: 190.289
+start: PerformFits
+fit status: -1  :  -1
+time: 60.194
+start: PerformFits
+fit status: -1  :  -1
+time: 74.9029
+start: PerformFits
+fit status: -1  :  -1
+time: 54.8476
+start: PerformFits
+fit status: -1  :  -1
+time: 60.1338
+start: PerformFits
+fit status: -1  :  -1
+time: 10.396
+start: PerformFits
+fit status: -1  :  -1
+time: 59.1831
+start: PerformFits
+fit status: -1  :  -1
+time: 7.74234
+start: PerformFits
+fit status: -1  :  -1
+time: 58.2956
+Not hypothosis two
+deltaChiSquaredPerHit  -0.16117
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 245
+fitResult.GetMinChiSquaredPerHit() 7.26528
+alpha = 1e-33
+pmax = 0.7018
+p0 = 2.018e+30
+pc = 0.5
+deltaChiSquaredPerHit  -0.16117
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 245
+fitResult.GetMinChiSquaredPerHit() 7.26528
+alpha = 1e-33
+pmax = 0.7018
+p0 = 2.018e+30
+pc = 0.5
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (46.8272, -21.5955, 106.035)
+Endpoint position: (144.212, 110.743, 208.678)
+Hypothosis: 0
+ymax 110.743
+ ^^ Pfo = 0x4f990d0
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 172
+total = 569
+start: PerformFits
+fit status: -1  :  -1
+time: 56.8616
+start: PerformFits
+fit status: -1  :  -1
+time: 53.1814
+start: PerformFits
+fit status: -1  :  -1
+time: 56.9226
+directionFitObject.GetMinChiSquaredPerHit() 34.608  GetForwardsChiSquaredPerHit()34.608  GetBackwardsChiSquaredPerHit()   62.2875         directionFitObject.GetNHits()  128
+Not hypothosis one
+start: PerformFits
+fit status: -1  :  -1
+time: 56.9661
+start: PerformFits
+fit status: -1  :  -1
+time: 97.7136
+start: PerformFits
+fit status: -1  :  -1
+time: 38.474
+start: PerformFits
+fit status: -1  :  -1
+time: 76.7372
+start: PerformFits
+fit status: -1  :  -1
+time: 106.023
+start: PerformFits
+fit status: -1  :  -1
+time: 65.7872
+start: PerformFits
+fit status: -1  :  -1
+time: 81.0037
+start: PerformFits
+fit status: -1  :  -1
+time: 65.445
+start: PerformFits
+fit status: -1  :  -1
+time: 78.9528
+start: PerformFits
+fit status: -1  :  -1
+time: 62.6987
+start: PerformFits
+fit status: -1  :  -1
+time: 13.7199
+start: PerformFits
+fit status: -1  :  -1
+time: 49.8127
+start: PerformFits
+fit status: -1  :  -1
+time: 6.78639
+start: PerformFits
+fit status: -1  :  -1
+time: 49.955
+start: PerformFits
+fit status: -1  :  -1
+time: 4.62754
+start: PerformFits
+fit status: -1  :  -1
+time: 57.4026
+Not hypothosis two
+deltaChiSquaredPerHit  -27.6795
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 128
+fitResult.GetMinChiSquaredPerHit() 34.608
+alpha = 1e-33
+pmax = -0.190575
+p0 = -6.90575e+30
+pc = 0.5
+deltaChiSquaredPerHit  -27.6795
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 128
+fitResult.GetMinChiSquaredPerHit() 34.608
+alpha = 1e-33
+pmax = -0.190575
+p0 = -6.90575e+30
+pc = 0.5
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (199.559, -59.2012, 635.994)
+Endpoint position: (178.27, -0.429609, 660.925)
+Hypothosis: 0
+ymax -0.429609
+ ^^ Pfo = 0x6b8b800
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 88
+total = 790
+start: PerformFits
+fit status: -1  :  -1
+time: 116.365
+start: PerformFits
+fit status: -1  :  -1
+time: 123.216
+start: PerformFits
+fit status: -1  :  -1
+time: 116.243
+directionFitObject.GetMinChiSquaredPerHit() 8.92266  GetForwardsChiSquaredPerHit()8.92266  GetBackwardsChiSquaredPerHit()   17.8363         directionFitObject.GetNHits()  65
+Not hypothosis one
+start: PerformFits
+fit status: -1  :  -1
+time: 119.22
+start: PerformFits
+fit status: -1  :  -1
+time: 117.647
+start: PerformFits
+fit status: -1  :  -1
+time: 4.62007
+start: PerformFits
+fit status: -1  :  -1
+time: 117.764
+start: PerformFits
+fit status: -1  :  -1
+time: 4.74069
+Not hypothosis two
+deltaChiSquaredPerHit  -8.91362
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 65
+fitResult.GetMinChiSquaredPerHit() 8.92266
+alpha = 1e-33
+pmax = 0.627759
+p0 = 1.27759e+30
+pc = 0.5
+deltaChiSquaredPerHit  -8.91362
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 65
+fitResult.GetMinChiSquaredPerHit() 8.92266
+alpha = 1e-33
+pmax = 0.627759
+p0 = 1.27759e+30
+pc = 0.5
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (212.046, -114.787, 629.161)
+Endpoint position: (177.502, 0.792958, 668.317)
+Hypothosis: 0
+ymax 0.792958
+ ^^ Pfo = 0x7acfdc0
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 242
+total = 650
+start: PerformFits
+fit status: -1  :  -1
+time: 52.0501
+start: PerformFits
+fit status: -1  :  -1
+time: 53.7445
+start: PerformFits
+fit status: -1  :  -1
+time: 52.069
+directionFitObject.GetMinChiSquaredPerHit() 1.48837  GetForwardsChiSquaredPerHit()1.72377  GetBackwardsChiSquaredPerHit()   1.48837         directionFitObject.GetNHits()  181
+Applied Hypothesis #1 (Single Clean Particle)
+returned
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (204.114, -49.1312, 470.585)
+Endpoint position: (135.283, -103.441, 543.335)
+Hypothosis: 1
+ymax -49.1312
+ ^^ Pfo = 0x5e587c0
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 32
+total = 489
+start: PerformFits
+fit status: -1  :  -1
+time: 260.921
+start: PerformFits
+fit status: -1  :  -1
+time: 260.888
+W Cluster too small
+7.27093
+Skipping...
+ ^^ Pfo = 0x6a41980
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 328
+total = 920
+start: PerformFits
+fit status: -1  :  -1
+time: 58.5648
+start: PerformFits
+fit status: -1  :  -1
+time: 58.3808
+start: PerformFits
+fit status: -1  :  -1
+time: 58.2782
+directionFitObject.GetMinChiSquaredPerHit() 7.26528  GetForwardsChiSquaredPerHit()7.26528  GetBackwardsChiSquaredPerHit()   7.42645         directionFitObject.GetNHits()  245
+Not hypothosis one
+start: PerformFits
+fit status: -1  :  -1
+time: 58.5717
+start: PerformFits
+fit status: -1  :  -1
+time: 250.738
+start: PerformFits
+fit status: -1  :  -1
+time: 59.4676
+start: PerformFits
+fit status: -1  :  -1
+time: 189.735
+start: PerformFits
+fit status: -1  :  -1
+time: 60.2366
+start: PerformFits
+fit status: -1  :  -1
+time: 74.8911
+start: PerformFits
+fit status: -1  :  -1
+time: 53.9238
+start: PerformFits
+fit status: -1  :  -1
+time: 60.217
+start: PerformFits
+fit status: -1  :  -1
+time: 10.4249
+start: PerformFits
+fit status: -1  :  -1
+time: 59.1864
+start: PerformFits
+fit status: -1  :  -1
+time: 7.7665
+start: PerformFits
+fit status: -1  :  -1
+time: 58.3934
+Not hypothosis two
+deltaChiSquaredPerHit  -0.16117
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 245
+fitResult.GetMinChiSquaredPerHit() 7.26528
+alpha = 1e-33
+pmax = 0.7018
+p0 = 2.018e+30
+pc = 0.5
+deltaChiSquaredPerHit  -0.16117
+(pow(((alpha + beta)/beta), beta/alpha)) 1
+fitResult.GetNHits() 245
+fitResult.GetMinChiSquaredPerHit() 7.26528
+alpha = 1e-33
+pmax = 0.7018
+p0 = 2.018e+30
+pc = 0.5
+                                DIRECTION RESULTS FOR PFO >>>>            
+Probability: 0.5
+Vertex position: (46.539, -22.2047, 105.7)
+Endpoint position: (144.212, 110.743, 208.682)
+Hypothosis: 0
+ymax 110.743
+ ^^ Pfo = 0x4f951c0
+    
+At start of finding directions...                                                                                                                                                                                                                                                                                        
+min = 20
+here = 81
+total = 783
+start: PerformFits
+fit status: -1  :  -1
+time: 114.424
+start: PerformFits
+fit status: -1  :  -1
+time: 123.247
+start: PerformFits
+fit status: -1  :  -1
+time: 114.047
+directionFitObject.GetMinChiSquaredPerHit() 2.78537  GetForwardsChiSquaredPerHit()2.78537  GetBackwardsChiSquaredPerHit()   3.56371         directionFitObject.GetNHits()  60
+Not hypothosis one
+start: PerformFits
+fit status: -1  :  -1
+time: 115.217
+start: PerformFits
+fit status: -1  :  -1
+time: 503.176
+start: PerformFits
+fit status: -1  :  -1
+time: 113.626
+start: PerformFits
+fit status: -1  :  -1
+time: 280.798
+start: PerformFits
+fit status: -1  :  -1
+time: 117.348
+start: PerformFits
+fit status: -1  :  -1
+time: 128.237
+start: PerformFits
+fit status: -1  :  -1
+time: 13.4112
+start: PerformFits
+fit status: -1  :  -1
+time: 120.956
+start: PerformFits
+fit status: -1  :  -1
+time: 4.57544
+start: PerformFits
+fit status: -1  :  -1
