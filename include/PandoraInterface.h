@@ -10,6 +10,8 @@
 
 #include "Pandora/PandoraInputTypes.h"
 
+using namespace pandora;
+
 namespace pandora
 {
 class Pandora;
@@ -55,6 +57,31 @@ void CreateGeometry(const Parameters &parameters, const pandora::Pandora *const 
  *  @param  pPrimaryPandora the address of the primary pandora instance
  */
 void ProcessEvents(const Parameters &parameters, const pandora::Pandora *const pPrimaryPandora);
+
+/**
+ *  @brief  Find the crossings between a given box and hit segment
+ *
+ *  @param  coordinates of the top of box
+ *  @param  coordinates of the bottom of box
+ *  @param  start coordinates of the hit segment
+ *  @param  stop coordinates of the hit segment
+ *  @param  entry point in the box
+ *  @param  exit point in the box
+ */
+int Intersections(const Double_t *const boxBottom, const Double_t *const boxTop, CartesianVector start, CartesianVector stop, CartesianVector &pt0, CartesianVector &pt1);
+
+/**
+ *  @brief  Find the crossings between a given box and hit segment, using a ray
+ *
+ *  @param  coordinates of the bottom of box
+ *  @param  coordinates of the top of box
+ *  @param  start coordinates of the hit segment
+ *  @param  sign indicator from the inverse direction vector
+ *  @param  inverse direction vector
+ *  @param  cross point start
+ *  @param  cross point stop
+ */
+ int BoxCrossings(const Double_t *const boxBottom, const Double_t *const boxTop, CartesianVector start, int *const sign, CartesianVector invdir, double &t0, double &t1);
 
 /**
  *  @brief  Parse the command line arguments, setting the application parameters
