@@ -43,6 +43,24 @@ public:
 };
 
 /**
+ *  @brief  LArVoxel class
+ */
+class LArVoxel
+{
+public:
+    /**
+     *  @brief Default constructor
+     */
+    LArVoxel(double voxelID, double energyInVoxel, CartesianVector voxelPosVect);
+
+    double voxelID;                      ///< The ID of the voxel 
+
+    double energyInVoxel;                ///< The energy in the voxel
+
+    CartesianVector voxelPosVect;        ///< A vector containing the x, y, z, position of the voxel
+};
+
+/**
  *  @brief  Create the detector geometry based on the C++ root file
  *
  *  @param  parameters the application parameters
@@ -57,6 +75,13 @@ void CreateGeometry(const Parameters &parameters, const pandora::Pandora *const 
  *  @param  pPrimaryPandora the address of the primary pandora instance
  */
 void ProcessEvents(const Parameters &parameters, const pandora::Pandora *const pPrimaryPandora);
+
+/**
+ *  @brief  Make voxels from g4hits
+ *
+ *  @param  the g4Hits
+ */
+std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit);
 
 /**
  *  @brief  Find the crossings between a given box and hit segment
@@ -107,6 +132,13 @@ bool PrintOptions();
 inline Parameters::Parameters() : m_settingsFile(""), m_inputFileName(""), m_nEventsToProcess(-1), m_shouldDisplayEventNumber(false)
 {
 }
+
+//------------------------------------------------------------------------------------------------------------------------------------------
+
+inline LArVoxel::LArVoxel(voxelID, energyInVoxel, voxelPosVect) : voxelID(-1), energyInVoxel(0), voxelPosVect(0,0,0)
+{
+}
+
 
 } // namespace lar_nd_reco
 
