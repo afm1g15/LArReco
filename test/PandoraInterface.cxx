@@ -247,28 +247,18 @@ void ProcessEvents(const Parameters &parameters,
       std::cout << "Show hits for " << detector->first << " ("
                 << detector->second.size() << " hits)" << std::endl;
       std::cout << "                                 " << std::endl;
-      //std::vector<double> voxelList;
-      //std::vector<double> voxelEnergy;
-      //std::vector<CartesianVector> voxelPos;
+
       std::vector<LArVoxel> voxelList;
-      /*
-      for (TG4HitSegmentContainer::iterator g4Hit = detector->second.begin();
-           g4Hit != detector->second.end(); ++g4Hit) {
 
-	makeVoxels(g4Hit);
+      for (TG4HitSegment &g4Hit : detector->second) {
+        std::vector<LArVoxel> currentVoxelList = makeVoxels(g4Hit);
 
-      } // end g4 hit loop
-      */
+        for (LArVoxel &voxel : currentVoxelList) {
+          voxelList.push_back(voxel);
+        }
+      }
 
-      for (TG4HitSegment &g4Hit : detector->second)
-	{
-	  std::vector<LArVoxel> currentVoxelList = makeVoxels(g4Hit);
-
-	  for (LArVoxel &voxel : currentVoxelList)
-	    {
-	      voxelList.push_back(voxel);
-	    }
-	}
+      std::cout << "Voxels produced: " << voxelList.size() << std::endl;
 
       // ATTN: Here we might need to add something to check if there are
       // multiple energy deposits from the same particle into one voxel. How can
@@ -277,7 +267,7 @@ void ProcessEvents(const Parameters &parameters,
       // Loop over the voxels and make them into caloHits
       for (int i = 0; i < voxelList.size(); i++) {
         PandoraApi::CaloHit::Parameters caloHitParameters;
-        caloHitParameters.m_positionVector = voxelList[i].voxelPosVect;
+        caloHitParameters.m_positionVector = voxelList[i].m_voxelPosVect;
         caloHitParameters.m_expectedDirection =
             pandora::CartesianVector(0.f, 0.f, 1.f);
         caloHitParameters.m_cellNormalVector =
@@ -290,10 +280,11 @@ void ProcessEvents(const Parameters &parameters,
         caloHitParameters.m_nCellRadiationLengths = 1.f;
         caloHitParameters.m_nCellInteractionLengths = 1.f;
         caloHitParameters.m_time = 0.f;
-        caloHitParameters.m_inputEnergy = voxelList[i].energyInVoxel;
-        caloHitParameters.m_mipEquivalentEnergy = voxelList[i].energyInVoxel;
-        caloHitParameters.m_electromagneticEnergy = voxelList[i].energyInVoxel;
-        caloHitParameters.m_hadronicEnergy = voxelList[i].energyInVoxel;
+        caloHitParameters.m_inputEnergy = voxelList[i].m_energyInVoxel;
+        caloHitParameters.m_mipEquivalentEnergy = voxelList[i].m_energyInVoxel;
+        caloHitParameters.m_electromagneticEnergy =
+            voxelList[i].m_energyInVoxel;
+        caloHitParameters.m_hadronicEnergy = voxelList[i].m_energyInVoxel;
         caloHitParameters.m_isDigital = false;
         caloHitParameters.m_hitType = pandora::TPC_3D;
         caloHitParameters.m_hitRegion = pandora::SINGLE_REGION;
@@ -305,7 +296,7 @@ void ProcessEvents(const Parameters &parameters,
         PANDORA_THROW_RESULT_IF(
             pandora::STATUS_CODE_SUCCESS, !=,
             PandoraApi::CaloHit::Create(*pPrimaryPandora, caloHitParameters));
-    } // end voxel loop
+      } // end voxel loop
 
       // ATTN: the voxelisation only works with ArgonCube
       break;
@@ -316,276 +307,242 @@ void ProcessEvents(const Parameters &parameters,
                             PandoraApi::ProcessEvent(*pPrimaryPandora));
     PANDORA_THROW_RESULT_IF(STATUS_CODE_SUCCESS, !=,
                             PandoraApi::Reset(*pPrimaryPandora));
-    }
+  }
 }
 
 //------------------------------------------------------------------------------------------------------------------------------------------
 std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
 
-      std::vector<LArVoxel> currentVoxelList;
+  std::vector<LArVoxel> currentVoxelList;
 
-      // Set the variables for the AV bounding box and voxel size
-      Double_t voxelSize[3] = {0.4, 0.4, 0.4};
-      Double_t boxTop[3] = {370, 160, 930};
-      Double_t boxBottom[3] = {-370, -160, 400};
-      Double_t boxLength[3] = {740, 320, 530};
+  // Set the variables for the AV bounding box and voxel size
+  Double_t voxelSize[3] = {0.4, 0.4, 0.4};
+  Double_t boxTop[3] = {370, 160, 930};
+  Double_t boxBottom[3] = {-370, -160, 400};
+  Double_t boxLength[3] = {740, 320, 530};
 
-      const double epsilon = 1.e-3;
-      double energy_deposit = 0.;
+  const double epsilon = 1.e-3;
+  double energy_deposit = 0.;
 
-        // Get start and stop points for what we want to voxelise
-        CartesianVector start(g4Hit.GetStart().X(), g4Hit.GetStart().Y(),
-                              g4Hit.GetStart().Z());
-        CartesianVector stop(g4Hit.GetStop().X(), g4Hit.GetStop().Y(),
-                             g4Hit.GetStop().Z());
-        // ATTN: need to match up with geometry before visulisation
-        start *= 0.1f; // convert unit to cm
-        stop *= 0.1f;
+  // Get start and stop points for what we want to voxelise
+  CartesianVector start(g4Hit.GetStart().X(), g4Hit.GetStart().Y(),
+                        g4Hit.GetStart().Z());
+  CartesianVector stop(g4Hit.GetStop().X(), g4Hit.GetStop().Y(),
+                       g4Hit.GetStop().Z());
+  // ATTN: need to match up with geometry before visulisation
+  start *= 0.1f; // convert unit to cm
+  stop *= 0.1f;
 
-	/*
-        // Find a trackID to assign the energy to
-        int trackId;
-        // This gives which tracks contribute to the hit (normally just 1)
-        if (g4Hit.Contrib.size() == 1)
-          trackId = g4Hit.Contrib.front();
-        else {
-          std::cout << "Could not determine which GEANT track ID to assign "
-                       "edep-sim energy to!"
-                    << std::endl;
-          std::cout << "Chose the first of the tracks." << std::endl;
-          trackId = g4Hit.Contrib.front();
-        }
+  // Eliminate any tracks which are just points
+  if ((stop - start).GetMagnitude() == 0) {
+    std::cout << "Cannot have 0cm track length." << std::endl;
+    std::cout << "                             " << std::endl;
+    return currentVoxelList;
+  }
 
-        // Now get the trajectory (particle) with the matching ID
-	
-        TG4Trajectory particle = pEDepSimEvent->Trajectories[trackId];
-        std::cout << "Trajectory ID = " << particle.GetTrackId() << std::endl;
+  // Vectors for the intersection points of the hit and the test box
+  CartesianVector pt0(0, 0, 0);
+  CartesianVector pt1(0, 0, 0);
 
-        std::cout << "Voxelizing TG4HitSegment for GEANT track " << trackId
-                  << " from (" << start.GetX() << "," << start.GetY() << ","
-                  << start.GetZ() << ")"
-                  << " to (" << stop.GetX() << "," << stop.GetY() << ","
-                  << stop.GetZ() << ")"
-                  << ", length = " << (stop - start).GetMagnitude() << " cm"
-                  << std::endl;
-	*/
+  // Find intersections (check hit contained within AV)
+  int crossings = Intersections(boxBottom, boxTop, start, stop, pt0, pt1);
 
-        // Eliminate any tracks which are just points
-        if ((stop - start).GetMagnitude() == 0) {
-          std::cout << "Cannot have 0cm track length." << std::endl;
-          std::cout << "                             " << std::endl;
-          return currentVoxelList;
-        }
+  if (crossings == 0) {
+    std::cout << "No crossing point found..." << std::endl;
+    // ATTN: In ML they return voxel list here if no crossing points
+    // found. Think I'm doing this a slightly different way, so maybe
+    // remove
+  }
 
-        // Vectors for the intersection points of the hit and the test box
-        CartesianVector pt0(0, 0, 0);
-        CartesianVector pt1(0, 0, 0);
+  std::cout << "   Intersects with bounding box at"
+            << " (" << pt0.GetX() << "," << pt0.GetY() << "," << pt0.GetZ()
+            << ")"
+            << " and (" << pt1.GetX() << "," << pt1.GetY() << "," << pt1.GetZ()
+            << ")" << std::endl;
 
-        // Find intersections (check hit contained within AV)
-        int crossings = Intersections(boxBottom, boxTop, start, stop, pt0, pt1);
+  // Get a unit vector in the direction of the hit segment
+  CartesianVector dir = pt1 - pt0;
+  double length = dir.GetMagnitude();
+  CartesianVector dirnorm = dir.GetUnitVector();
 
-        if (crossings == 0) {
-          std::cout << "No crossing point found..." << std::endl;
-          // ATTN: In ML they return voxel list here if no crossing points
-          // found. Think I'm doing this a slightly different way, so maybe
-          // remove
-        }
+  // Need this to check the inverse vector doesn't end up with a divide by
+  // 0
+  float val1, val2, val3;
+  if (dir.GetX() != 0) {
+    val1 = 1 / dir.GetX();
+  } else {
+    val1 = std::numeric_limits<float>::max();
+  }
 
-        std::cout << "   Intersects with bounding box at"
-                  << " (" << pt0.GetX() << "," << pt0.GetY() << ","
-                  << pt0.GetZ() << ")"
-                  << " and (" << pt1.GetX() << "," << pt1.GetY() << ","
-                  << pt1.GetZ() << ")" << std::endl;
+  if (dir.GetY() != 0) {
+    val2 = 1 / dir.GetY();
+  } else {
+    val2 = std::numeric_limits<float>::max();
+  }
 
-        // Get a unit vector in the direction of the hit segment
-        CartesianVector dir = pt1 - pt0;
-        double length = dir.GetMagnitude();
-        CartesianVector dirnorm = dir.GetUnitVector();
+  if (dir.GetZ() != 0) {
+    val3 = 1 / dir.GetZ();
+  } else {
+    val3 = std::numeric_limits<float>::max();
+  }
 
-        // Need this to check the inverse vector doesn't end up with a divide by
-        // 0
-        float val1, val2, val3;
-        if (dir.GetX() != 0) {
-          val1 = 1 / dir.GetX();
-        } else {
-          val1 = std::numeric_limits<float>::max();
-        }
+  CartesianVector invdirnorm(val1, val2, val3);
+  int sign[3];
+  sign[0] = (invdirnorm.GetX() < 0);
+  sign[1] = (invdirnorm.GetY() < 0);
+  sign[2] = (invdirnorm.GetZ() < 0);
 
-        if (dir.GetY() != 0) {
-          val2 = 1 / dir.GetY();
-        } else {
-          val2 = std::numeric_limits<float>::max();
-        }
+  double t0(0);
+  double t1(0);
+  // size_t nx, ny, nz;
 
-        if (dir.GetZ() != 0) {
-          val3 = 1 / dir.GetZ();
-        } else {
-          val3 = std::numeric_limits<float>::max();
-        }
+  // Shuffle along this hit segment
+  while (true) {
+    // Get the position vector that we are going to check out
+    CartesianVector pt = pt0 + dirnorm * (t1 + epsilon);
+    std::cout << "    New point: " << pt << std::endl;
 
-        CartesianVector invdirnorm(val1, val2, val3);
-        int sign[3];
-        sign[0] = (invdirnorm.GetX() < 0);
-        sign[1] = (invdirnorm.GetY() < 0);
-        sign[2] = (invdirnorm.GetZ() < 0);
+    // Find which voxel this lives in
+    //-----voxel Iding------------
+    if (pt.GetX() > boxTop[0] || pt.GetX() < boxBottom[0] ||
+        pt.GetY() > boxTop[1] || pt.GetY() < boxBottom[1] ||
+        pt.GetZ() > boxTop[2] || pt.GetZ() < boxBottom[2]) {
+      std::cout << "Invalid voxel! Out of Geometry!" << std::endl;
+      std::cout << "                               " << std::endl;
+      return currentVoxelList;
+    }
 
-        double t0(0);
-        double t1(0);
-        size_t nx, ny, nz;
+    double xnum = boxLength[0] / voxelSize[0];
+    double ynum = boxLength[1] / voxelSize[1];
+    double znum = boxLength[2] / voxelSize[2];
 
-        // Shuffle along this hit segment
-        while (true) {
-          // Get the position vector that we are going to check out
-          CartesianVector pt = pt0 + dirnorm * (t1 + epsilon);
-          std::cout << "    New point: " << pt << std::endl;
+    // double xlen = boxLength[0]/xnum;
 
-          // Find which voxel this lives in
-          //-----voxel Iding------------
-          if (pt.GetX() > boxTop[0] || pt.GetX() < boxBottom[0] ||
-              pt.GetY() > boxTop[1] || pt.GetY() < boxBottom[1] ||
-              pt.GetZ() > boxTop[2] || pt.GetZ() < boxBottom[2]) {
-            std::cout << "Invalid voxel! Out of Geometry!" << std::endl;
-            std::cout << "                               " << std::endl;
-            return currentVoxelList;
-          }
+    double xindex = (pt.GetX() - boxBottom[0]) / voxelSize[0];
+    double yindex = (pt.GetY() - boxBottom[1]) / voxelSize[1];
+    double zindex = (pt.GetZ() - boxBottom[2]) / voxelSize[2];
 
-          double xnum = boxLength[0] / voxelSize[0];
-          double ynum = boxLength[1] / voxelSize[1];
-          double znum = boxLength[2] / voxelSize[2];
+    if (xindex == xnum)
+      xindex -= 1;
+    if (yindex == ynum)
+      yindex -= 1;
+    if (zindex == znum)
+      zindex -= 1;
 
-          // double xlen = boxLength[0]/xnum;
+    int voxelID = (zindex * (xnum * ynum) + yindex * xnum + xindex);
+    //---------------------------
 
-          double xindex = (pt.GetX() - boxBottom[0]) / voxelSize[0];
-          double yindex = (pt.GetY() - boxBottom[1]) / voxelSize[1];
-          double zindex = (pt.GetZ() - boxBottom[2]) / voxelSize[2];
+    // ATTN: This wasn't working for x or y, but was for z. I couldn't
+    // work out why, but seemed to work okay if I just used the indexes
+    // straight out
+    //--------------id_to_xyz_index---------------
+    /*
+    nz = voxelID / (xnum * ynum);
+    voxelID -= nz * (xnum * ynum);
+    ny = voxelID / xnum;
+    nx = (voxelID - ny * xnum);
 
-          if (xindex == xnum)
-            xindex -= 1;
-          if (yindex == ynum)
-            yindex -= 1;
-          if (zindex == znum)
-            zindex -= 1;
+    std::cout << "xindex : " << xindex << "  yindex : " << yindex << "    zindex
+    : " << zindex << std::endl; std::cout << "nx : " << nx << "  ny : " << ny <<
+    "    nz : " << nz << std::endl;
+    */
+    //-----------------------------------------------------------------------
+    // move the box bounds such that they are moved a voxel along
+    // z in good....x and y aren't....but can just use index straight here
+    // boxBottom[0] = boxBottom[0] + nx * voxelSize[0];
+    // boxBottom[1] = boxBottom[1] + ny * voxelSize[1];
+    // boxBottom[2] = boxBottom[2] + nz * voxelSize[2];
 
-          double voxelID = (zindex * (xnum * ynum) + yindex * xnum + xindex);
-          //---------------------------
+    // Define an updated test box
+    boxBottom[0] = boxBottom[0] + (xindex * voxelSize[0] - 1e-3);
+    boxBottom[1] = boxBottom[1] + (yindex * voxelSize[1] - 1e-3);
+    boxBottom[2] = boxBottom[2] + (zindex * voxelSize[2] - 1e-3);
+    boxTop[0] = boxBottom[0] + voxelSize[0];
+    boxTop[1] = boxBottom[1] + voxelSize[1];
+    boxTop[2] = boxBottom[2] + voxelSize[2];
 
-          // ATTN: This wasn't working for x or y, but was for z. I couldn't
-          // work out why, but seemed to work okay if I just used the indexes
-          // straight out
-          //--------------id_to_xyz_index---------------
-          
-          nz = voxelID / (xnum * ynum);
-          voxelID -= nz * (xnum * ynum);
-          ny = voxelID / xnum;
-          nx = (voxelID - ny * xnum);
+    std::cout << "    Inspecting a voxel id " << voxelID << " ... "
+              << std::endl;
 
-	  std::cout << "xindex : " << xindex << "  yindex : " << yindex << "    zindex : " << zindex << std::endl;
-	  std::cout << "nx : " << nx << "  ny : " << ny << "    nz : " << nz << std::endl;
+    double t1before = t1;
+    int cross = BoxCrossings(boxBottom, boxTop, pt0, sign, invdirnorm, t0, t1);
+    double t1after = t1;
 
-          //-----------------------------------------------------------------------
-          //move the box bounds such that they are moved a voxel along
-          //z in good....x and y aren't....but can just use index straight here
-          //boxBottom[0] = boxBottom[0] + nx * voxelSize[0];
-          // boxBottom[1] = boxBottom[1] + ny * voxelSize[1];
-          //boxBottom[2] = boxBottom[2] + nz * voxelSize[2];
-          
+    // ATTN: This is here so that it can not get stuck in an infinite loop
+    // where t1 doesn't shuffle along. Probably should think of a better
+    // way to do this
+    if (t1before == t1after)
+      return currentVoxelList;
 
-          // Define an updated test box
-          boxBottom[0] = boxBottom[0] + (xindex * voxelSize[0] - 1e-3);
-          boxBottom[1] = boxBottom[1] + (yindex * voxelSize[1] - 1e-3);
-          boxBottom[2] = boxBottom[2] + (zindex * voxelSize[2] - 1e-3);
-          boxTop[0] = boxBottom[0] + voxelSize[0];
-          boxTop[1] = boxBottom[1] + voxelSize[1];
-          boxTop[2] = boxBottom[2] + voxelSize[2];
+    // Consider crossings with the test box
+    if (cross == 0) {
+      // Test box should have been set up to contain a section of this hit
+      std::cout << "      No crossing (not expected) ... breaking" << std::endl;
+      return currentVoxelList;
+    }
 
-          std::cout << "    Inspecting a voxel id " << voxelID << " ... "
-                    << std::endl;
+    double dx;
+    if (cross == 1) {
+      std::cout << "      One crossing: " << pt0 + dir * t1 << std::endl;
+      dx = std::min(t1, length);
+    } else {
+      std::cout << "      Two crossing" << pt0 + dir * t0 << " => "
+                << pt0 + dir * t1 << std::endl;
+      if (t0 > length)
+        dx = length;
+      else if (t1 > length)
+        dx = length - t0;
+      else
+        dx = t1 - t0;
+    }
 
-          double t1before = t1;
-          int cross =
-              BoxCrossings(boxBottom, boxTop, pt0, sign, invdirnorm, t0, t1);
-          double t1after = t1;
+    // Find the fraction of energy contained in voxel from the fraction of
+    // track in voxel
+    double energyInVoxel = dx / length * g4Hit.GetEnergyDeposit();
 
-          // ATTN: This is here so that it can not get stuck in an infinite loop
-          // where t1 doesn't shuffle along. Probably should think of a better
-          // way to do this
-          if (t1before == t1after)
-            return currentVoxelList;
+    if (energyInVoxel < 0) {
+      std::cout << "Voxel with negative energy deposited!" << std::endl
+                << "  ID = " << voxelID << std::endl
+                << "  edep computed from:" << std::endl
+                << "      dx = " << dx << ", length = " << length
+                << ", TG4HitSegment edep = " << g4Hit.GetEnergyDeposit()
+                << std::endl;
+      // ATTN: ML throw an error here. Guess we should throw one too?
+    }
 
-          // Consider crossings with the test box
-          if (cross == 0) {
-            // Test box should have been set up to contain a section of this hit
-            std::cout << "      No crossing (not expected) ... breaking"
-                      << std::endl;
-            return currentVoxelList;
-          }
+    energy_deposit += energyInVoxel;
 
-          double dx;
-          if (cross == 1) {
-            std::cout << "      One crossing: " << pt0 + dir * t1 << std::endl;
-            dx = std::min(t1, length);
-          } else {
-            std::cout << "      Two crossing" << pt0 + dir * t0 << " => "
-                      << pt0 + dir * t1 << std::endl;
-            if (t0 > length)
-              dx = length;
-            else if (t1 > length)
-              dx = length - t0;
-            else
-              dx = t1 - t0;
-          }
+    std::cout << "      Registering voxel id " << voxelID << " t1 =" << t1
+              << " (total length = " << length << ")" << std::endl;
 
-          // Find the fraction of energy contained in voxel from the fraction of
-          // track in voxel
-          double energyInVoxel = dx / length * g4Hit.GetEnergyDeposit();
+    // Push back voxels back into a list
 
-          if (energyInVoxel < 0) {
-            std::cout << "Voxel with negative energy deposited!" << std::endl
-                      << "  ID = " << voxelID << std::endl
-                      << "  edep computed from:" << std::endl
-                      << "      dx = " << dx << ", length = " << length
-                      << ", TG4HitSegment edep = " << g4Hit.GetEnergyDeposit()
-                      << std::endl;
-            // ATTN: ML throw an error here. Guess we should throw one too?
-          }
+    // Multiply by 10 to match with the detector geometry
+    CartesianVector voxelPosVect(boxBottom[0] * 10, boxBottom[1] * 10,
+                                 boxBottom[2] * 10);
+    LArVoxel currentVoxel(voxelID, energyInVoxel, voxelPosVect);
+    currentVoxelList.push_back(currentVoxel);
 
-          energy_deposit += energyInVoxel;
+    // Once t1 is longer than the voxel, break out of the loop
+    if (t1 > length) {
+      std::cout << "      Reached the segment end (t1 = " << t1
+                << " fractional length " << t1 / length << ") ... breaking"
+                << std::endl;
+      std::cout << "                      " << std::endl;
+      return currentVoxelList;
+    }
 
-          std::cout << "      Registering voxel id " << voxelID << " t1 =" << t1
-                    << " (total length = " << length << ")" << std::endl;
+    std::cout << "      Updated t1 = " << t1 << " (fractional length "
+              << t1 / length << ")" << std::endl;
+    std::cout << "                      " << std::endl;
 
-          // Push back voxel details into lists
-          // Make a voxel type?
-          //voxelList.push_back(voxelID);
-	  // voxelEnergy.push_back(energyInVoxel);
+  } // end while true
 
-          // Multiply by 10 to match with the detector geometry
-          CartesianVector voxelPosVect(boxBottom[0] * 10, boxBottom[1] * 10,
-                                       boxBottom[2] * 10);
-          //voxelPos.push_back(voxelPosVect);
-	  LArVoxel currentVoxel(voxelID, energyInVoxel, voxelPosVect);
-	  currentVoxelList.push_back(currentVoxel);
+  std::cout << "current num of voxels: " << currentVoxelList.size()
+            << std::endl;
+  std::cout << "                      " << std::endl;
 
-          // Once t1 is longer than the voxel, break out of the loop
-          if (t1 > length) {
-            std::cout << "      Reached the segment end (t1 = " << t1
-                      << " fractional length " << t1 / length
-                      << ") ... breaking" << std::endl;
-            std::cout << "                      " << std::endl;
-            return currentVoxelList;
-          }
-
-          std::cout << "      Updated t1 = " << t1 << " (fractional length "
-                    << t1 / length << ")" << std::endl;
-          std::cout << "                      " << std::endl;
-
-        } // end while true
-
-        std::cout << "num of voxels: " << currentVoxelList.size() << std::endl;
-        std::cout << "                      " << std::endl;
-
-	return currentVoxelList;
-
+  return currentVoxelList;
 }
 
 //------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,8 +1,8 @@
 /**
  *  @file   LArReco/include/PandoraInterface.h
- * 
+ *
  *  @brief  Header file for PandoraInterface.
- * 
+ *
  *  $Log: $
  */
 #ifndef PANDORA_ND_INTERFACE_H
@@ -12,52 +12,53 @@
 
 using namespace pandora;
 
-namespace pandora
-{
+namespace pandora {
 class Pandora;
 }
 
 //------------------------------------------------------------------------------------------------------------------------------------------
 
-namespace lar_nd_reco
-{
+namespace lar_nd_reco {
 
 /**
  *  @brief  Parameters class
  */
-class Parameters
-{
+class Parameters {
 public:
-    /**
-     *  @brief Default constructor
-     */
-    Parameters();
+  /**
+   *  @brief Default constructor
+   */
+  Parameters();
 
-    std::string m_settingsFile;  ///< The path to the pandora settings file (mandatory parameter)
-    std::string m_inputFileName; ///< The path to the input file containing events and/or geometry information
+  std::string m_settingsFile;  ///< The path to the pandora settings file
+                               ///< (mandatory parameter)
+  std::string m_inputFileName; ///< The path to the input file containing events
+                               ///< and/or geometry information
 
-    int m_nEventsToProcess;          ///< The number of events to process (default all events in file)
-    bool m_shouldDisplayEventNumber; ///< Whether event numbers should be displayed (default false)
+  int m_nEventsToProcess; ///< The number of events to process (default all
+                          ///< events in file)
+  bool m_shouldDisplayEventNumber; ///< Whether event numbers should be
+                                   ///< displayed (default false)
 
-    pandora::InputInt m_nEventsToSkip; ///< The number of events to skip
+  pandora::InputInt m_nEventsToSkip; ///< The number of events to skip
 };
 
 /**
  *  @brief  LArVoxel class
  */
-class LArVoxel
-{
+class LArVoxel {
 public:
-    /**
-     *  @brief Default constructor
-     */
-    LArVoxel(double voxelID, double energyInVoxel, CartesianVector voxelPosVect);
+  /**
+   *  @brief Default constructor
+   */
+  LArVoxel(int voxelID, double energyInVoxel, CartesianVector voxelPosVect);
 
-    double voxelID;                      ///< The ID of the voxel 
+  int m_voxelID; ///< The ID of the voxel
 
-    double energyInVoxel;                ///< The energy in the voxel
+  double m_energyInVoxel; ///< The energy in the voxel
 
-    CartesianVector voxelPosVect;        ///< A vector containing the x, y, z, position of the voxel
+  CartesianVector m_voxelPosVect; ///< A vector containing the x, y, z, position
+                                  ///< of the voxel
 };
 
 /**
@@ -66,7 +67,8 @@ public:
  *  @param  parameters the application parameters
  *  @param  pPrimaryPandora the address of the primary pandora instance
  */
-void CreateGeometry(const Parameters &parameters, const pandora::Pandora *const pPrimaryPandora);
+void CreateGeometry(const Parameters &parameters,
+                    const pandora::Pandora *const pPrimaryPandora);
 
 /**
  *  @brief  Process events using the supplied pandora instances
@@ -74,7 +76,8 @@ void CreateGeometry(const Parameters &parameters, const pandora::Pandora *const 
  *  @param  parameters the application parameters
  *  @param  pPrimaryPandora the address of the primary pandora instance
  */
-void ProcessEvents(const Parameters &parameters, const pandora::Pandora *const pPrimaryPandora);
+void ProcessEvents(const Parameters &parameters,
+                   const pandora::Pandora *const pPrimaryPandora);
 
 /**
  *  @brief  Make voxels from g4hits
@@ -93,7 +96,9 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit);
  *  @param  entry point in the box
  *  @param  exit point in the box
  */
-int Intersections(const Double_t *const boxBottom, const Double_t *const boxTop, CartesianVector start, CartesianVector stop, CartesianVector &pt0, CartesianVector &pt1);
+int Intersections(const Double_t *const boxBottom, const Double_t *const boxTop,
+                  CartesianVector start, CartesianVector stop,
+                  CartesianVector &pt0, CartesianVector &pt1);
 
 /**
  *  @brief  Find the crossings between a given box and hit segment, using a ray
@@ -106,7 +111,9 @@ int Intersections(const Double_t *const boxBottom, const Double_t *const boxTop,
  *  @param  cross point start
  *  @param  cross point stop
  */
- int BoxCrossings(const Double_t *const boxBottom, const Double_t *const boxTop, CartesianVector start, int *const sign, CartesianVector invdir, double &t0, double &t1);
+int BoxCrossings(const Double_t *const boxBottom, const Double_t *const boxTop,
+                 CartesianVector start, int *const sign, CartesianVector invdir,
+                 double &t0, double &t1);
 
 /**
  *  @brief  Parse the command line arguments, setting the application parameters
@@ -129,16 +136,16 @@ bool PrintOptions();
 //------------------------------------------------------------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------------------------------------------------------------
 
-inline Parameters::Parameters() : m_settingsFile(""), m_inputFileName(""), m_nEventsToProcess(-1), m_shouldDisplayEventNumber(false)
-{
-}
+inline Parameters::Parameters()
+    : m_settingsFile(""), m_inputFileName(""), m_nEventsToProcess(-1),
+      m_shouldDisplayEventNumber(false) {}
 
 //------------------------------------------------------------------------------------------------------------------------------------------
 
-inline LArVoxel::LArVoxel(voxelID, energyInVoxel, voxelPosVect) : voxelID(-1), energyInVoxel(0), voxelPosVect(0,0,0)
-{
-}
-
+inline LArVoxel::LArVoxel(int voxelID, double energyInVoxel,
+                          CartesianVector voxelPosVect)
+    : m_voxelID(voxelID), m_energyInVoxel(energyInVoxel),
+      m_voxelPosVect(voxelPosVect) {}
 
 } // namespace lar_nd_reco
 
