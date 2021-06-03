@@ -262,7 +262,8 @@ void ProcessEvents(const Parameters &parameters,
 
       // ATTN: Here we might need to add something to check if there are
       // multiple energy deposits from the same particle into one voxel. How can
-      // we tell if they are from the same particle though?
+      // we tell if they are from the same particle though? This should also
+      // be rare I think
 
       // Loop over the voxels and make them into caloHits
       for (int i = 0; i < voxelList.size(); i++) {
@@ -311,15 +312,18 @@ void ProcessEvents(const Parameters &parameters,
 }
 
 //------------------------------------------------------------------------------------------------------------------------------------------
-std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
+std::vector<LArVoxel> makeVoxels(const TG4HitSegment &g4Hit) {
 
   std::vector<LArVoxel> currentVoxelList;
 
   // Set the variables for the AV bounding box and voxel size
-  Double_t voxelSize[3] = {0.4, 0.4, 0.4};
-  Double_t boxTop[3] = {370, 160, 930};
-  Double_t boxBottom[3] = {-370, -160, 400};
-  Double_t boxLength[3] = {740, 320, 530};
+  const Double_t voxelSize[3] = {0.4, 0.4, 0.4};
+  const Double_t boxTop[3] = {370, 160, 930};
+  const Double_t boxBottom[3] = {-370, -160, 400};
+  const Double_t boxLength[3] = {740, 320, 530};
+  const double xnum = boxLength[0] / voxelSize[0];
+  const double ynum = boxLength[1] / voxelSize[1];
+  const double znum = boxLength[2] / voxelSize[2];
 
   const double epsilon = 1.e-3;
   double energy_deposit = 0.;
@@ -345,7 +349,7 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
   CartesianVector pt1(0, 0, 0);
 
   // Find intersections (check hit contained within AV)
-  int crossings = Intersections(boxBottom, boxTop, start, stop, pt0, pt1);
+  const int crossings = Intersections(boxBottom, boxTop, start, stop, pt0, pt1);
 
   if (crossings == 0) {
     std::cout << "No crossing point found..." << std::endl;
@@ -362,8 +366,8 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
 
   // Get a unit vector in the direction of the hit segment
   CartesianVector dir = pt1 - pt0;
-  double length = dir.GetMagnitude();
-  CartesianVector dirnorm = dir.GetUnitVector();
+  const double length = dir.GetMagnitude();
+  const CartesianVector dirnorm = dir.GetUnitVector();
 
   // Need this to check the inverse vector doesn't end up with a divide by
   // 0
@@ -386,7 +390,7 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
     val3 = std::numeric_limits<float>::max();
   }
 
-  CartesianVector invdirnorm(val1, val2, val3);
+  const CartesianVector invdirnorm(val1, val2, val3);
   int sign[3];
   sign[0] = (invdirnorm.GetX() < 0);
   sign[1] = (invdirnorm.GetY() < 0);
@@ -394,7 +398,7 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
 
   double t0(0);
   double t1(0);
-  // size_t nx, ny, nz;
+  // size_t nx(0), ny(0), nz(0);
 
   // Shuffle along this hit segment
   while (true) {
@@ -411,12 +415,6 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
       std::cout << "                               " << std::endl;
       return currentVoxelList;
     }
-
-    double xnum = boxLength[0] / voxelSize[0];
-    double ynum = boxLength[1] / voxelSize[1];
-    double znum = boxLength[2] / voxelSize[2];
-
-    // double xlen = boxLength[0]/xnum;
 
     double xindex = (pt.GetX() - boxBottom[0]) / voxelSize[0];
     double yindex = (pt.GetY() - boxBottom[1]) / voxelSize[1];
@@ -437,10 +435,13 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
     // straight out
     //--------------id_to_xyz_index---------------
     /*
-    nz = voxelID / (xnum * ynum);
+    nz = (double)voxelID / (xnum * ynum);
+    std::cout << "voxelID before = " << voxelID <<std::endl;
+    std::cout << "nz " << nz << std::endl;
     voxelID -= nz * (xnum * ynum);
-    ny = voxelID / xnum;
-    nx = (voxelID - ny * xnum);
+    std::cout << "voxelID after = " << voxelID << std::endl;
+    ny = (double)voxelID / xnum;
+    nx = ((double)voxelID - ny * xnum);
 
     std::cout << "xindex : " << xindex << "  yindex : " << yindex << "    zindex
     : " << zindex << std::endl; std::cout << "nx : " << nx << "  ny : " << ny <<
@@ -449,23 +450,27 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
     //-----------------------------------------------------------------------
     // move the box bounds such that they are moved a voxel along
     // z in good....x and y aren't....but can just use index straight here
-    // boxBottom[0] = boxBottom[0] + nx * voxelSize[0];
-    // boxBottom[1] = boxBottom[1] + ny * voxelSize[1];
-    // boxBottom[2] = boxBottom[2] + nz * voxelSize[2];
+    Double_t boxBottomUpdate[3] = {0, 0, 0};
+    Double_t boxTopUpdate[3] = {0, 0, 0};
+
+    // boxBottomUpdate[0] = boxBottom[0] + (nx * voxelSize[0] - 1e-3);
+    // boxBottomUpdate[1] = boxBottom[1] + (ny * voxelSize[1] - 1e-3);
+    // boxBottomUpdate[2] = boxBottom[2] + (nz * voxelSize[2] - 1e-3);
 
     // Define an updated test box
-    boxBottom[0] = boxBottom[0] + (xindex * voxelSize[0] - 1e-3);
-    boxBottom[1] = boxBottom[1] + (yindex * voxelSize[1] - 1e-3);
-    boxBottom[2] = boxBottom[2] + (zindex * voxelSize[2] - 1e-3);
-    boxTop[0] = boxBottom[0] + voxelSize[0];
-    boxTop[1] = boxBottom[1] + voxelSize[1];
-    boxTop[2] = boxBottom[2] + voxelSize[2];
+    boxBottomUpdate[0] = boxBottom[0] + (xindex * voxelSize[0] - 1e-3);
+    boxBottomUpdate[1] = boxBottom[1] + (yindex * voxelSize[1] - 1e-3);
+    boxBottomUpdate[2] = boxBottom[2] + (zindex * voxelSize[2] - 1e-3);
+    boxTopUpdate[0] = boxBottomUpdate[0] + voxelSize[0];
+    boxTopUpdate[1] = boxBottomUpdate[1] + voxelSize[1];
+    boxTopUpdate[2] = boxBottomUpdate[2] + voxelSize[2];
 
     std::cout << "    Inspecting a voxel id " << voxelID << " ... "
               << std::endl;
 
     double t1before = t1;
-    int cross = BoxCrossings(boxBottom, boxTop, pt0, sign, invdirnorm, t0, t1);
+    int cross = BoxCrossings(boxBottomUpdate, boxTopUpdate, pt0, sign,
+                             invdirnorm, t0, t1);
     double t1after = t1;
 
     // ATTN: This is here so that it can not get stuck in an infinite loop
@@ -507,7 +512,7 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
                 << "      dx = " << dx << ", length = " << length
                 << ", TG4HitSegment edep = " << g4Hit.GetEnergyDeposit()
                 << std::endl;
-      // ATTN: ML throw an error here. Guess we should throw one too?
+      throw StatusCodeException(STATUS_CODE_FAILURE);
     }
 
     energy_deposit += energyInVoxel;
@@ -516,10 +521,10 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
               << " (total length = " << length << ")" << std::endl;
 
     // Push back voxels back into a list
-
     // Multiply by 10 to match with the detector geometry
-    CartesianVector voxelPosVect(boxBottom[0] * 10, boxBottom[1] * 10,
-                                 boxBottom[2] * 10);
+    CartesianVector voxelPosVect(boxBottomUpdate[0] * 10,
+                                 boxBottomUpdate[1] * 10,
+                                 boxBottomUpdate[2] * 10);
     LArVoxel currentVoxel(voxelID, energyInVoxel, voxelPosVect);
     currentVoxelList.push_back(currentVoxel);
 
@@ -547,10 +552,10 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit) {
 
 //------------------------------------------------------------------------------------------------------------------------------------------
 int Intersections(const Double_t *const boxBottom, const Double_t *const boxTop,
-                  CartesianVector start, CartesianVector stop,
+                  const CartesianVector start, const CartesianVector stop,
                   CartesianVector &pt0, CartesianVector &pt1) {
   CartesianVector displVec = (stop - start);
-  CartesianVector dir = displVec.GetUnitVector();
+  const CartesianVector dir = displVec.GetUnitVector();
   float val1, val2, val3;
   if (dir.GetX() != 0) {
     val1 = 1 / dir.GetX();
@@ -570,18 +575,18 @@ int Intersections(const Double_t *const boxBottom, const Double_t *const boxTop,
     val3 = std::numeric_limits<float>::max();
   }
 
-  CartesianVector invdir(val1, val2, val3);
+  const CartesianVector invdir(val1, val2, val3);
   int sign[3];
   sign[0] = (invdir.GetX() < 0);
   sign[1] = (invdir.GetY() < 0);
   sign[2] = (invdir.GetZ() < 0);
 
   // Consider if start and stop points are contained
-  bool startContained =
+  const bool startContained =
       (start.GetX() > boxBottom[0] && start.GetX() < boxTop[0]) &&
       (start.GetY() > boxBottom[1] && start.GetY() < boxTop[1]) &&
       (start.GetZ() > boxBottom[2] && start.GetZ() < boxTop[2]);
-  bool stopContained =
+  const bool stopContained =
       (stop.GetX() > boxBottom[0] && stop.GetX() < boxTop[0]) &&
       (stop.GetY() > boxBottom[1] && stop.GetY() < boxTop[1]) &&
       (stop.GetZ() > boxBottom[2] && stop.GetZ() < boxTop[2]);
@@ -650,8 +655,8 @@ int Intersections(const Double_t *const boxBottom, const Double_t *const boxTop,
 
 //------------------------------------------------------------------------------------------------------------------------------------------
 int BoxCrossings(const Double_t *const boxBottom, const Double_t *const boxTop,
-                 CartesianVector start, int *const sign, CartesianVector invdir,
-                 double &t0, double &t1) {
+                 const CartesianVector start, int *const sign,
+                 const CartesianVector invdir, double &t0, double &t1) {
 
   float tmin(0), tmax(0), tymin(0), tymax(0), tzmin(0), tzmax(0);
 

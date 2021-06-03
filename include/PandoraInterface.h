@@ -53,6 +53,8 @@ public:
    */
   LArVoxel(int voxelID, double energyInVoxel, CartesianVector voxelPosVect);
 
+  LArVoxel(const LArVoxel &rhs);
+
   int m_voxelID; ///< The ID of the voxel
 
   double m_energyInVoxel; ///< The energy in the voxel
@@ -84,7 +86,7 @@ void ProcessEvents(const Parameters &parameters,
  *
  *  @param  the g4Hits
  */
-std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit);
+std::vector<LArVoxel> makeVoxels(const TG4HitSegment &g4Hit);
 
 /**
  *  @brief  Find the crossings between a given box and hit segment
@@ -97,7 +99,7 @@ std::vector<LArVoxel> makeVoxels(TG4HitSegment &g4Hit);
  *  @param  exit point in the box
  */
 int Intersections(const Double_t *const boxBottom, const Double_t *const boxTop,
-                  CartesianVector start, CartesianVector stop,
+                  const CartesianVector start, const CartesianVector stop,
                   CartesianVector &pt0, CartesianVector &pt1);
 
 /**
@@ -112,8 +114,8 @@ int Intersections(const Double_t *const boxBottom, const Double_t *const boxTop,
  *  @param  cross point stop
  */
 int BoxCrossings(const Double_t *const boxBottom, const Double_t *const boxTop,
-                 CartesianVector start, int *const sign, CartesianVector invdir,
-                 double &t0, double &t1);
+                 const CartesianVector start, int *const sign,
+                 const CartesianVector invdir, double &t0, double &t1);
 
 /**
  *  @brief  Parse the command line arguments, setting the application parameters
@@ -146,6 +148,12 @@ inline LArVoxel::LArVoxel(int voxelID, double energyInVoxel,
                           CartesianVector voxelPosVect)
     : m_voxelID(voxelID), m_energyInVoxel(energyInVoxel),
       m_voxelPosVect(voxelPosVect) {}
+
+//------------------------------------------------------------------------------------------------------------------------------------------
+
+inline LArVoxel::LArVoxel(const LArVoxel &rhs)
+    : m_voxelID(rhs.m_voxelID), m_energyInVoxel(rhs.m_energyInVoxel),
+      m_voxelPosVect(rhs.m_voxelPosVect) {}
 
 } // namespace lar_nd_reco
 
