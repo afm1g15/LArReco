@@ -282,21 +282,88 @@ void ProcessEvents(const Parameters &parameters, const Pandora *const pPrimaryPa
             std::vector<LArVoxel> voxelList;
 
             for (TG4HitSegment &g4Hit : detector->second)
-            {
+	      {
                 std::vector<LArVoxel> currentVoxelList = makeVoxels(g4Hit, grid);
 
+		std::vector<int> idList;
+		std::vector<int> indexList;
+
+		// Check for double matches in voxel ID - if found, combine energy
+		for (LArVoxel &voxel : currentVoxelList) {
+		  idList.push_back(voxel.m_voxelID);
+		}
+
+		int prev_id = -1;
+		int prev_num_counts = -1;
+
+		for (int &id : idList) {
+		  // Find number of matches to a given VoxelID
+		  int num_counts = std::count(idList.begin(), idList.end(), id);
+
+		  if (num_counts > 1) {
+		    // If a match is found, push the index back into a list
+		    for (int i = 0; i < num_counts; i++) {
+		      if (i == 0) {
+			auto it = find(idList.begin(), idList.end(), id);
+			int index = it - idList.begin();
+			indexList.push_back(index);
+		      } else {
+			std::vector<int>::iterator iter =
+			  idList.begin() + indexList.back();
+			auto it = find(iter, idList.end(), id);
+			int index = it - iter + indexList.back() + 1;
+			indexList.push_back(index);
+		      }
+		    }
+		  }
+		  // Erasing of extra index counts
+		  if (num_counts > 1 && num_counts == prev_num_counts &&
+		      id == prev_id) {
+		    for (int i = 0; i < num_counts; i++) {
+		      indexList.pop_back();
+		    }
+		  }
+
+		  if (num_counts < 2) {
+		    prev_id = -1;
+		    prev_num_counts = -1;
+		  } else {
+		    prev_id = id;
+		    prev_num_counts = num_counts;
+		  }
+		}
+		while (indexList.size() > 1 && currentVoxelList.size() > 0) {
+		  int first = indexList[0];
+		  int second = indexList[1];
+		  LArVoxel voxel1 = currentVoxelList[first];
+		  LArVoxel voxel2 = currentVoxelList[second];
+
+		  // If voxels have the same ID, add their energies
+		  if (voxel1.m_voxelID == voxel2.m_voxelID) {
+		    LArVoxel newVoxel(voxel1.m_voxelID,
+				      voxel1.m_energyInVoxel + voxel2.m_energyInVoxel,
+				      voxel1.m_voxelPosVect);
+
+		    currentVoxelList.insert(currentVoxelList.begin() + first, newVoxel);
+
+		    currentVoxelList.erase(currentVoxelList.begin() + second + 1);
+		    currentVoxelList.erase(currentVoxelList.begin() + first + 1);
+		    indexList.erase(indexList.begin());
+		    for (int &index : indexList) {
+		      index = index - 1;
+		    }
+		  } else {
+		    indexList.erase(indexList.begin());
+		  }
+		}
+
                 for (LArVoxel &voxel : currentVoxelList)
-                {
+		  {
                     voxelList.push_back(voxel);
-                }
-            }
+		  }
+	      }
 
             std::cout << "Produced " << voxelList.size() << " voxels from " << detector->second.size() << " hit segments." << std::endl;
-
-            // ATTN: Here we might need to add something to check if there are
-            // multiple energy deposits from the same particle into one voxel. How can
-            // we tell if they are from the same particle though? This should also
-            // be rare I think
 
             // Loop over the voxels and make them into caloHits
             for (int i = 0; i < voxelList.size(); i++)
